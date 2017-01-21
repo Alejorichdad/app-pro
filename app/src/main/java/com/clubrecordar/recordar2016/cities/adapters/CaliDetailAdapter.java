@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.clubrecordar.recordar2016.R;
 import com.clubrecordar.recordar2016.cities.models.CaliModel;
+import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetEighteenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetEighthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetEleventhActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetFifteenthActivity;
@@ -20,7 +21,9 @@ import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetFourteenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetFourthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetNinthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetSecActivity;
+import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetSeventeenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetSeventhActivity;
+import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetSixteenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetSixthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetTenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.cali.CaliDetThirdActivity;
@@ -426,7 +429,7 @@ public class CaliDetailAdapter extends RecyclerView.Adapter<CaliDetailAdapter.Ca
                         e.printStackTrace();
                     }
                     //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
-                    intent = new Intent(context, CaliDetFifteenthActivity.class);
+                    intent = new Intent(context, CaliDetSixteenthActivity.class);
                     intent.putExtra("title", title);
                     intent.putExtra("description", description);
                     intent.putExtra("phone", phone);
@@ -435,7 +438,50 @@ public class CaliDetailAdapter extends RecyclerView.Adapter<CaliDetailAdapter.Ca
                     intent.putExtra("image", image);
                     context.startActivity(intent);
                     break;
+                case 16:
+                    try {
+                        title = (String) DetailCali.getDetailCali().getJSONObject("item17").get("title");
+                        description = (String) DetailCali.getDetailCali().getJSONObject("item17").get("description");
+                        phone = (String) DetailCali.getDetailCali().getJSONObject("item17").get("phone");
+                        email = (String) DetailCali.getDetailCali().getJSONObject("item17").get("email");
+                        coords = (String) DetailCali.getDetailCali().getJSONObject("item17").get("coords");
+                        image = (int) DetailCali.getDetailCali().getJSONObject("item17").get("image");
 
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
+                    intent = new Intent(context, CaliDetSeventeenthActivity.class);
+                    intent.putExtra("title", title);
+                    intent.putExtra("description", description);
+                    intent.putExtra("phone", phone);
+                    intent.putExtra("email", email);
+                    intent.putExtra("coords", coords);
+                    intent.putExtra("image", image);
+                    context.startActivity(intent);
+                    break;
+                case 17:
+                    try {
+                        title = (String) DetailCali.getDetailCali().getJSONObject("item17").get("title");
+                        description = (String) DetailCali.getDetailCali().getJSONObject("item17").get("description");
+                        phone = (String) DetailCali.getDetailCali().getJSONObject("item17").get("phone");
+                        email = (String) DetailCali.getDetailCali().getJSONObject("item17").get("email");
+                        coords = (String) DetailCali.getDetailCali().getJSONObject("item17").get("coords");
+                        image = (int) DetailCali.getDetailCali().getJSONObject("item17").get("image");
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
+                    intent = new Intent(context, CaliDetEighteenthActivity.class);
+                    intent.putExtra("title", title);
+                    intent.putExtra("description", description);
+                    intent.putExtra("phone", phone);
+                    intent.putExtra("email", email);
+                    intent.putExtra("coords", coords);
+                    intent.putExtra("image", image);
+                    context.startActivity(intent);
+                    break;
 
             }
         }
