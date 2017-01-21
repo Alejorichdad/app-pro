@@ -24,7 +24,7 @@ public class DetailBogota {
     public static JSONObject contentBogota11 =  new JSONObject();
     public static JSONObject contentBogota12 =  new JSONObject();
     public static JSONObject contentBogota13 =  new JSONObject();
-    public static JSONObject contentBogota14 =  new JSONObject();
+   /* public static JSONObject contentBogota14 =  new JSONObject();
     public static JSONObject contentBogota15 =  new JSONObject();
     public static JSONObject contentBogota16 =  new JSONObject();
     public static JSONObject contentBogota17 =  new JSONObject();
@@ -34,7 +34,7 @@ public class DetailBogota {
     public static JSONObject contentBogota21 =  new JSONObject();
     public static JSONObject contentBogota22 =  new JSONObject();
     public static JSONObject contentBogota23 =  new JSONObject();
-
+*/
     /* DATA */
 
     public static String title1 = "Cad Conocimiento";
@@ -42,96 +42,133 @@ public class DetailBogota {
                                         "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
     public static String phone1 = "317 364 5146 ";
     public static String email1 = "info@cad-conocimiento.com.co";
-    public static int imageFile1 = R.drawable.pupiesd;
-    public static String coords1 = "4.657991, -74.066304";
+    public static int imageFile1 = R.drawable.cad;
+    public static String coords1 = "#";
 
-    public static String title2 = "Adom salud domiciliaria";
-    public static String description2 = "Actividad:\n" + "\nCentro integral de Belleza (Spa) todo para el cuidado de su cuerpo.\n" + "\nBeneficio:\n" + "\n30 % de descuento en pagos de contado.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nCarrera 43 No. 67 - 64 Local No.03\n" +
-            "Lily Tovar / Tel. No. (5) 317 7924 - 301 790 9434 lilitb@hotmail.es";
-    public static String phone2 = "0316103520 ";
-    public static String email2 = "adiaz@adomsaluddomiciliaria.com";
-    public static int imageFile2 = R.drawable.adomd;
-    public static String coords2 = "4.680373, -74.065004";
+    public static String title2 = "Alfa 21";
+    public static String description2 = "Actividad:\n" + "\nOrganización de convenciones y eventos comerciales, actividades formativas, agencias de viajes, logística y calendario empresarial.\n" +
+            "Presentar el carnet del Club Recordar y el documento de identificación. El descuentos no es aplicable para tiquetes aéreos.\n" + "\nBeneficio:\n" + "\nEDUCACIÓN; 7,5% de descuento en: Actividades formativas, entrenamiento de coaching estratégico, entrenamiento de coaching empresarial y programación neurolingüistica (PNL)\n" +
+            "LOGISTICA EMPRESARIAL; 5% de descuento en: Integral, complementaria y eventos. CALENDARIO EMPRESARIAL; 7,5% de descuento en: Todas las actividades diarias. AGENCIA DE VIAJES; 2,5% de descuento en: Todos los planes turisticos.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación. El descuentos no es aplicable para tiquetes aéreos.\n" + "\nContacto:\n" + "\nwww.alfa21.com.co\n" +
+            "Cra. 25 No. 52-25 Galerías / Móvil 319 422 5866 Jacqueline Gaitan Romero\n";
+    public static String phone2 = "319 422 5866";
+    public static String email2 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile2 = R.drawable.alfa;
+    public static String coords2 = "4.641029, -74.074628";
 
-    public static String title3 = "Estética Dental Arte Oral";
-    public static String description3 = "Contacto: Jaime Garcia, beneficio para los afiliados: valoración inicial sin costo y 15% de descuento en los tratamientos.";
-    public static String phone3 = "0316207940";
+    public static String title3 = "Arte Oral";
+    public static String description3 = "Actividad:\n" + "\nServicios odontologicos especializados.\n" + "\nBeneficio:\n" + "\nConsulta sin costo alguno / 15% de descuento sobre los precios al público.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" +
+            "Y bonos descuento cuando apliquen.\n" + "La viabilidad del tratamiento esta sujeta a sus condiciones actuales de salud.\n" + "\nContacto:\n" + "\nwww.arteoral.com.co\n" +
+            "Cra. 47 A No. 118-27 Alambra / PBX 620 7940 Movil 310 858 1333 Dr Jaime Garcia / e-mail: j.garcia@arteoral.com\n";
+    public static String phone3 = "310 858 1333";
     public static String email3 = "cita.info@arteoral.com";
     public static int imageFile3 = R.drawable.arted;
     public static String coords3 = "4.700918, -74.057560";
 
-    public static String title4 = "EG Colombia desde 1984";
-    public static String description4 = "Contacto: Alejandro Lozano, beneficio para los afiliados: Tarifas especiales en adecuación y remodelación de oficina.";
-    public static String phone4 = "321 413 8576";
-    public static String email4 = "ivanllanos@hotmail.com";
-    public static int imageFile4 = R.drawable.agd;
-    public static String coords4 = "4.681052, -74.040734";
+    public static String title4 = "Coffe Break Express";
+    public static String description4 = "Actividad:\n" + "\nRefrigerios Empresariales.\n" + "\nBeneficio:\n" + "\nDescuento del 15% en refrigerios empresariales / 30% de descuento en el primer pedido que realice cada empresa\n" + "\nCondiciones y Restricciones:\n" + "\nCantidad superior a 30 refrigerios.\n" +
+                                        "Presentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.coffeebreakexpress.com - Cra. 8 D No. 157-34 / Móvil 312 463 6098 Luis Felipe Diaz Gómez / e-mail: info@coffeebreakexpress.com\n";
+    public static String phone4 = "312 463 6098";
+    public static String email4 = "info@coffeebreakexpress.com";
+    public static int imageFile4 = R.drawable.coffed;
+    public static String coords4 = "4.734390, -74.030610";
 
-    public static String title5 = "Restaurante Bar Palos de Moguer";
-    public static String description5 = "Presentando tarjeta Recordar 20% descuento en carta de comida y bebidas nacionales, El descuento solo aplica de domingo a jueves.";
-    public static String phone5 = "3102418432";
-    public static String email5 = "damaris.leon@conboca.com";
-    public static int imageFile5 = R.drawable.palosd;
-    public static String coords5 = "4.667708, -74.053273";
+    public static String title5 = "La Raclette";
+    public static String description5 = "Actividad:\n" + "\nComercializadora de productos y servicios, mediante la compra venta al por mayory detal de anchetas, rancho y licores nacionales e internacionales.\n" + "\nBeneficio:\n" + "\nTabla de Quesos Bodegón – Descuento 30% para clientes Club Recordar. Tabla de Quesos Gourmet – Descuento 30% para clientes Club Recordar. Ancheteria de Catalogo Vigente en el año con un descuento del 10% sobre tarifa plena para clientes Club Recordar.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nTv. 60 (avda. suba) No. 115-58 Local 104 Tor. A Tel. 624 7229 - 271 4770\n";
+    public static String phone5 = "031  271 4770";
+    public static String email5 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile5 = R.drawable.raclette;
+    public static String coords5 = "4.698769, -74.069571";
 
     public static String title6 = "Servicio de catering Tres Pimientas";
-    public static String description6 = "Contacto: Fernando Rodriguez, beneficio para los afiliados: 20% descuento en nuestros servicios de catering y tablas de queso.";
+    public static String description6 = "Actividad:\n" + "\nDesayunos, cenas, parrilladas, tablas de quesos y paellas\n" + "\nBeneficio:\n" + "\nLos siguientes beneficios deben ampliarse en la información de la pagina: 20% de descuento en Desayunos, Cenas, Parrilladas, Tablas de quesos, Paellas// Otros Beneficios: 20% de descuento en servicio de meseros, alquiler de menaje // Por la compra de paella se obsequia sangria (minimo 10 paellas = número de sangrías), por la compra de tabla de queso; obsequio copa de vino (minimo para 10 personas = copas de vino).\n" +
+                                        "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nCra. 8 D No. 157-34 / Móvil 312 390 2213\n" +
+            "Luis Fernando Rodriguez / e-mail: trespimientasgourmeteventos@hotmail.com\n";
     public static String phone6 = "3123902213";
     public static String email6 = "trespimientasgourmeteventos@hotmail.com";
     public static int imageFile6 = R.drawable.tresd;
     public static String coords6 = "4.734390, -74.030610";
 
-    public static String title7 = "La Recta";
-    public static String description7 = "Contacto: Gonzalo Cadavid, beneficio afiliados: 10% descuento cambio aceite, 20% mecánica, 40% mano de obra aire acondicionado.";
-    public static String phone7 = "3114935063";
-    public static String email7 = "alianzas@clubrecordar.com";
-    public static int imageFile7 = R.drawable.rectad;
-    public static String coords7 = "4.719005, -74.054366";
+    public static String title7 = "Sin Visa";
+    public static String description7 = "Actividad:\n" + "\nComercialización de Bebidas y alimentos preparados y empacados dentro del establecimiento comercial para eventos externos. Formación Artistica por medio de clases, conferencias, expediciones, eventos culturales, a nombre propio y en colaboración con otras entidades.\n" +
+            "\nBeneficio:\n" + "\nDescuento del 10% en los productos del menú de la barra de café.\n" +
+            "\nCondiciones y Restricciones:\n" + "\nAplica para compras superiores a $20,000 pesos\n" +
+            "Presentar el carnet del Club Recordar y el documento de identificación.\n" +
+            "\nContacto:\n" + "\nCll 71 No. 11-07 Chapinero / Movil 317 428 7724 / Tel. 755 9272\n" +
+            "Javier Puentes - Director de mercadeo / e-mail: bienvenidos@sinvisabogota.com\n";
 
-    public static String title8 = "Fisio Slim Medical Spa";
-    public static String description8 = "Contacto: Dario Lombana, beneficio para los afiliados: 10% servicio Spa";
-    public static String phone8 = "3006326220";
-    public static String email8 = "dulcedeseo@gmail.com";
-    public static int imageFile8 = R.drawable.spad;
-    public static String coords8 = "#";
+    public static String phone7 = "317 428 7724";
+    public static String email7 = "bienvenidos@sinvisabogota.com";
+    public static int imageFile7 = R.drawable.sinvisa;
+    public static String coords7 = "4.656250, -74.059501";
 
-    public static String title9 = "Escuela de fútbol Pies Talentosos";
-    public static String description9 = "Contacto: Felipe Luengas, beneficio afiliados: 20% descuento en mensualidad y 50% en la matrícula.";
-    public static String phone9 = "3142019872";
-    public static String email9 = "piestalentososcolombia@gmail.com";
-    public static int imageFile9 = R.drawable.piesd;
-    public static String coords9 = "4.701375, -74.042992";
+    public static String title8 = "Confort";
+    public static String description8 = "Actividad:\n" + "\nServicios de guardería canina, colegio canino, adiestramiento, socialización, ruta para perros, baño y peluquería.\n" + "\nBeneficio:\n" + "10% de descuento por pago en efectivo en guardería canina, adiestramiento, socialización, baño y peluqueria, ruta para perros.\n" +
+            "5% de descuento con otros medios de pago\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nKm. 5,5 Vía suba Cota / Móvil 310 698 0565\n" +
+            "German Dario Gonzalez / e-mail: germangonzalez@elpalcoparrilla.com.co\n";
+    public static String phone8 = "310 698 0565";
+    public static String email8 = "germangonzalez@elpalcoparrilla.com.co";
+    public static int imageFile8 = R.drawable.confort;
+    public static String coords8 = "4.782654, -74.089603";
+
+    public static String title9 = "Mindset";
+    public static String description9 = "Actividad:\n" + "\nBranding y Comunicación\n" + "\nBeneficio:\n" + "\nDescuento del 10% sobre la lista de precios de los servicios de creatividad y diseño gráfico descritos en el tarifario adjunto\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.mindsetgroup.co\n" +
+            "Cra. 9 No. 53-58 Of. 708 Chapinero / Movil 317-4287724 Fijo 3573502 Javier Puentes - Director Ejecutivo / javier.p@mindsetgroup.co\n" +
+            "Lily Tovar / Tel. No. (5) 317 7924 - 301 790 9434 lilitb@hotmail.es";
+    public static String phone9 = "3174287724";
+    public static String email9 = "javier.p@mindsetgroup.co";
+    public static int imageFile9 = R.drawable.minset;
+    public static String coords9 = "4.640155, -74.063433";
 
     public static String title10 = "Restaurante Palco Parrilla";
-    public static String description10 = "Contacto: Germán Darío González, beneficio para los afiliados: 10% en precios de la carta.";
-    public static String phone10 = "3164338035";
+    public static String description10 = "Actividad:\n" + "\nRestaurante - eventos Sociales - recreación para niños.\n" + "\nBeneficio:\n" + "\nDescuento 30% en platos armados para pago en efectivo (los platos armados se pueden revisar en el menú).\n" +
+                                         "Descuento 20% en platos armados para pago en efectivo (los platos armados se pueden revisar en el menú).\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.elpalcoparrilla.com.co - Km. 5,5 Vía suba Cota / Móvil 310 698 0565\n" +
+                                         "German Dario Gonzalez / e-mail: germangonzalez@elpalcoparrilla.com.co\n";
+    public static String phone10 = "310 698 0565";
     public static String email10 = "Germangonzalez@elpalcoparrilla.com.co";
     public static int imageFile10 = R.drawable.palcod;
     public static String coords10 = "4.782549, -74.089686";
 
-    public static String title11 = "Servicio de catering Coffe Break Express";
-    public static String description11 = "Contacto: Felipe Díaz, beneficio para los afiliados: 30% descuento primer pedido.";
-    public static String phone11 = "3124636098";
-    public static String email11 = "info@coffebreakexpress.com";
-    public static int imageFile11 = R.drawable.coffed;
-    public static String coords11 = "4.734390, -74.030610";
+    public static String title11 = "Son de Habana";
+    public static String description11 = "Actividad:\n" + "\nPromoción y Desarrollo de todas las actividades económicas, sociales, educativas y culturales necesarias para difundir y expansión de expresiones artísticas como la danza, el cine, el teatro cultural del café y la fotografía\n" + "\nBeneficio:\n" + "\nDescuento del 20% sobre las tarifas de nuestros cursos de baile.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.sondelahabana.com\n" +
+            "Cll 71 No. 11-07 Chapinero / Movil 331 7428 7724 Fijo 755 9272 Persona Contacto Javier Puentes - Director de mercadeo e-mail: sondehabana@gmail.com\n";
 
-    public static String title12 = "Praxis";
-    public static String description12 = "Contacto: Jaques Manrique, beneficio para los afiliados: descuentos especiales en curso de inglés.";
-    public static String phone12 = "0316431953";
-    public static String email12 = "jacquespraxis@gmail.com";
-    public static int imageFile12 = R.drawable.praxisd;
-    public static String coords12 = "4.708909, -74.071318";
+    public static String phone11 = "331 7428 7724";
+    public static String email11 = "sondehabana@gmail.com";
+    public static int imageFile11 = R.drawable.sonhabana;
+    public static String coords11 = "4.656229, -74.059490";
 
-    public static String title13 = "Tecnilimpio";
-    public static String description13 = "Contacto: Mauricio Aristizabal, Beneficio para los afiliados: Tarifas preferenciales en manejo de personal de mantenimiento y aseo.";
-    public static String phone13 = "310 565 4169";
-    public static String email13 = "maristizabal@tecnilimpio.com";
-    public static int imageFile13 = R.drawable.tecnid;
-    public static String coords13 = "4.681052, -74.04072";
+    public static String title12 = "Gonzalo Prada";
+    public static String description12 = "Actividad:\n" + "\nMedicina Interna Neumología.\n" + "\nBeneficio:\n" + "\nConsulta y Control tarifa plena $ 220,000. - Tarifa para clientes Club Recordar $ 100,000.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.La viabilidad del tratamiento esta sujeta a sus condiciones actuales de salud.\n" +
+            "\nContacto:\n" + "\nAv. Cll. 127 No. 20-78 Of. 520 Barrio la Calleja / Movil 312-3559439 Gonzalo Prada - Neumologo\n";
+    public static String phone12 = "3123559439";
+    public static String email12 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile12 = R.drawable.prada;
+    public static String coords12 = "4.706725, -74.051291";
 
-    public static String title14 = "Enciso Estaff";
-    public static String description14 = "Contacto: Marisol Pinzón, beneficio para los afiliados: precios especiales en asesoría de Imagen y capacitaciones empresariales.";
+    public static String title13 = "Sonría";
+    public static String description13 = "Actividad:\n" + "\nPrestación de servicios de Salud y asistencia en servicios de odontología general y especializada.\n" + "\nBeneficio:\n" + "\nDescuento del 30% con la tarjeta sonría y 5% adicional por la alianza.\n" +
+            "- Tarjeta Sonria personal $10.000 (Precio regular $33.200) - Tarjeta Sonría Familiar $30.000 (Precio regular $88.600)\n" +
+            "- Plan odontológico personal por un año $55.000 (Precio regular $85.000) No disponible en clínicas. Exclusivo corporativo.\n" +
+            "El plan odontological incluye lo siguiente:\n" +
+            "- Valoracion odontologica - Eliminacion de caries - Una profilaxis al año - Pulpectomia (elimination del nervio) - Exodoncias no quirúrgicas - Cementación provisional de temporales - Rx periapicales\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" +
+            "La viabilidad del tratamiento esta sujeta a sus condiciones actuales de salud.\n" + "\nContacto:\n" + "\nwww.sonria.com.co\n" +
+            " Transv. 24 No. 54-08 Galerías\n" +
+            "Diana Barón Movil 313 386 1654 / Paula Leyva Movil 311 206 6736 / convenios@sonria.com.co\n";
+
+    public static String phone13 = "311 206 6736";
+    public static String email13 = "convenios@sonria.com.co";
+    public static int imageFile13 = R.drawable.sonriad;
+    public static String coords13 = "4.644985, -74.072570";
+
+/*
+    public static String title14 = "Ensiso";
+    public static String description14 = "Actividad:\n" +
+                                         "\nCentro integral de Belleza (Spa)\n" +
+                                         "\ntodo para el cuidado de su cuerpo.\n" +
+                                         "\nBeneficio:\n" + "\n30 % de descuento en pagos de contado.\n" +
+                                         "\nCondiciones y Restricciones:\n" +
+                                         "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" +
+                                         "\nContacto:\n" + "\nCarrera 43 No. 67 - 64 Local No.03\n";
     public static String phone14 = "3158564657";
     public static String email14 = "info@ensisostapeluqueria.com";
     public static int imageFile14 = R.drawable.encisod;
@@ -199,7 +236,7 @@ public class DetailBogota {
     public static String email23 = "some@gmail.com";
     public static int imageFile23 = R.drawable.tienda;
     public static String coords23 = "37.7749,-122.4194";
-
+*/
     public static void addObjectsBogota(){
         try {
 
@@ -216,7 +253,7 @@ public class DetailBogota {
             mainContentBogota.put("item11", getEleventhItemData());
             mainContentBogota.put("item12", getTwelvethItemData());
             mainContentBogota.put("item13", getThirdteenthItemData());
-            mainContentBogota.put("item14", getFourteenthItemData());
+           /* mainContentBogota.put("item14", getFourteenthItemData());
             mainContentBogota.put("item15", getFifteenthItemData());
             mainContentBogota.put("item16", getSixteenthItemData());
             mainContentBogota.put("item17", getSeventeenthItemData());
@@ -226,6 +263,7 @@ public class DetailBogota {
             mainContentBogota.put("item21", getTwentiFirstItemData());
             mainContentBogota.put("item22", getTwentiSecondItemData());
             mainContentBogota.put("item23", getTwentiThirdItemData());
+            */
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -391,6 +429,7 @@ public class DetailBogota {
 
         return contentBogota13;
     }
+    /*
 
     public static JSONObject getFourteenthItemData() throws JSONException {
 
@@ -511,4 +550,5 @@ public class DetailBogota {
 
         return contentBogota23;
     }
+    */
 }
