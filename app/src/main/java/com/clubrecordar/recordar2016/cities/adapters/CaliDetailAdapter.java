@@ -413,6 +413,29 @@ public class CaliDetailAdapter extends RecyclerView.Adapter<CaliDetailAdapter.Ca
                     intent.putExtra("image", image);
                     context.startActivity(intent);
                     break;
+                case 15:
+                    try {
+                        title = (String) DetailCali.getDetailCali().getJSONObject("item16").get("title");
+                        description = (String) DetailCali.getDetailCali().getJSONObject("item16").get("description");
+                        phone = (String) DetailCali.getDetailCali().getJSONObject("item16").get("phone");
+                        email = (String) DetailCali.getDetailCali().getJSONObject("item16").get("email");
+                        coords = (String) DetailCali.getDetailCali().getJSONObject("item16").get("coords");
+                        image = (int) DetailCali.getDetailCali().getJSONObject("item16").get("image");
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
+                    intent = new Intent(context, CaliDetFifteenthActivity.class);
+                    intent.putExtra("title", title);
+                    intent.putExtra("description", description);
+                    intent.putExtra("phone", phone);
+                    intent.putExtra("email", email);
+                    intent.putExtra("coords", coords);
+                    intent.putExtra("image", image);
+                    context.startActivity(intent);
+                    break;
+
 
             }
         }

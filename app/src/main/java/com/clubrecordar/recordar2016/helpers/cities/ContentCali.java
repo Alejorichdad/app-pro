@@ -73,6 +73,22 @@ public class ContentCali {
     public static int imageFile15= R.drawable.angel;
     public static String description15 = "item description cali 15";
 
+
+    public static String titulo16 = "item title cali 16";
+    public static int imageFile16= R.drawable.angel;
+    public static String description16 = "item description cali 16";
+
+
+    public static String titulo17 = "item title cali 17";
+    public static int imageFile17= R.drawable.angel;
+    public static String description17 = "item description cali 17";
+
+
+
+    public static String titulo18 = "item title cali 18";
+    public static int imageFile18= R.drawable.angel;
+    public static String description18 = "item description cali 18";
+
     public static void addContentCali(){
 
         contentCali.add(new CaliModel(imageFile1, titulo1, description1));
@@ -86,10 +102,13 @@ public class ContentCali {
         contentCali.add(new CaliModel(imageFile9, titulo9, description9));
         contentCali.add(new CaliModel(imageFile10, titulo10, description10));
         contentCali.add(new CaliModel(imageFile11, titulo11, description11));
-       // contentCali.add(new CaliModel(imageFile12, titulo12, description12));
-       //contentCali.add(new CaliModel(imageFile13, titulo13, description13));
-        //contentCali.add(new CaliModel(imageFile14, titulo14, description14));
-        //contentCali.add(new CaliModel(imageFile15, titulo15, description15));
+        contentCali.add(new CaliModel(imageFile12, titulo12, description12));
+        contentCali.add(new CaliModel(imageFile13, titulo13, description13));
+        contentCali.add(new CaliModel(imageFile14, titulo14, description14));
+        contentCali.add(new CaliModel(imageFile15, titulo15, description15));
+        contentCali.add(new CaliModel(imageFile16, titulo16, description16));
+        contentCali.add(new CaliModel(imageFile17, titulo17, description17));
+        contentCali.add(new CaliModel(imageFile18, titulo18, description18));
     }
 
     public static List<CaliModel> getContentCali(){

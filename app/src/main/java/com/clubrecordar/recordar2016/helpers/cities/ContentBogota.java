@@ -55,7 +55,7 @@ public class ContentBogota {
 
     public static String titulo11 = "Son de Habana";
     public static int imageFile11 = R.drawable.sonhabana;
-    public static String description11 = "expresiones artísticas como la danza, el cine, el teatro cultural";
+    public static String description11 = "Expresiones artísticas como la danza, el cine, el teatro cultural";
 
     public static String titulo12 = "Gonzalo Prada";
     public static int imageFile12 = R.drawable.prada;
