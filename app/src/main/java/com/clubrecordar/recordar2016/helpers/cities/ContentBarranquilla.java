@@ -75,7 +75,7 @@ public class ContentBarranquilla {
     public static String description15 = "Contamos con zonas de esparcimiento familiar";
     */
 
-    /*prueba de funcion*/
+
 
     public static void addContentBarranquilla(){
         contentBarranquilla.add(new BarranquillaModel(imageFile1, titulo1, description1));

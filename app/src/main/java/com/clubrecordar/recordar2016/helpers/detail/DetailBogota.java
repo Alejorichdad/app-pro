@@ -37,15 +37,17 @@ public class DetailBogota {
 
     /* DATA */
 
-    public static String title1 = "Puppies spa";
-    public static String description1 = "Contacto: Lorena Ardila, beneficio: 10% de descuento en baño en 1.ª mascota, 15% en 2.ª y 20% en 3.ª mascota.";
-    public static String phone1 = "3114561188";
-    public static String email1 = "lorerami90@hotmail.com";
+    public static String title1 = "Cad Conocimiento";
+    public static String description1 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
+                                        "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
+    public static String phone1 = "317 364 5146 ";
+    public static String email1 = "info@cad-conocimiento.com.co";
     public static int imageFile1 = R.drawable.pupiesd;
     public static String coords1 = "4.657991, -74.066304";
 
     public static String title2 = "Adom salud domiciliaria";
-    public static String description2 = "Beneficio para los afiliados: 20% de descuento en la Consulta Médica Domiciliaria, 10% de descuento en Terapias a Domicilio.";
+    public static String description2 = "Actividad:\n" + "\nCentro integral de Belleza (Spa) todo para el cuidado de su cuerpo.\n" + "\nBeneficio:\n" + "\n30 % de descuento en pagos de contado.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nCarrera 43 No. 67 - 64 Local No.03\n" +
+            "Lily Tovar / Tel. No. (5) 317 7924 - 301 790 9434 lilitb@hotmail.es";
     public static String phone2 = "0316103520 ";
     public static String email2 = "adiaz@adomsaluddomiciliaria.com";
     public static int imageFile2 = R.drawable.adomd;
