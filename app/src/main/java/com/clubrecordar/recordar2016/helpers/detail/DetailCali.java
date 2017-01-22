@@ -55,55 +55,67 @@ public class DetailCali {
     public static String phone3 = "304 461 2517";
     public static String email3 = "juanpipe86@hotmail.com";
     public static int imageFile3 = R.drawable.estrellas;
-    public static String coords3 = "3.427842, -76.540568";
+    public static String coords3 = "3.487597, -76.511115";
 
     public static String title4 = "CCED";
-    public static String description4 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone4 = "3147401515";
-    public static String email4 = "gerencia@fomentoips.com.co";
-    public static int imageFile4 = R.drawable.fomentod;
-    public static String coords4 = "3.525986, -76.298526";
+    public static String description4 = "Actividad:\n" + "\nFormamos los mejores técnicos laborales en programas con calidad certificada. Nuestros practicantes y egresados son reconocidos en el ámbito laboral, como personas íntegras, capacitadas para aportar valor agregado a las empresas que han confiado en sus competencias.\n" + "\nBeneficio:\n" + "\n\n" +
+            "Beneficio\n" +
+            "15% dcto pago crédito en cualquier programa de formación.\n" +
+            "20% dcto pago contado en cualquier programa de formación solo pagos de contado.\n" +
+            "15% descuento cursos y seminarios en cualquier programa de formación para empresas.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cced.edu.co\n" +
+            "Juan Carlos Vasquez / Movil 318 827 8067 / e-mail: aspirantes@cced.edu.co\n";
+
+    public static String phone4 = "318 827 8067";
+    public static String email4 = "aspirantes@cced.edu.co";
+    public static int imageFile4 = R.drawable.cedd;
+    public static String coords4 = "3.427822, -76.540587";
 
     public static String title5 = "Human Help";
-    public static String description5 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone5 = " 3116401624";
-    public static String email5 = "alanzas@clurecordar.com";
-    public static int imageFile5 = R.drawable.angeld;
-    public static String coords5 = "37.7749,-122.4194";
+    public static String description5 = "Actividad:\n" + "\nConsultoría en procesos de gestión humana.\n" +
+            "Asesoramos a nuestros clientes a través de nuestro fuerte compromiso y capacidad para brindar un servicio diferenciado y alternativas de mejoramiento a su organización.\n" + "\nBeneficio:\n" + "\nDescuento del 30% en todos los servicios.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\n\n" +
+            "Movil 317 862 9398 Tel. (2) 396 3837\n" +
+            "Heidy Cardozo Gonzalez / e-mail: consultores@humanhelp.com.co\n";
+    public static String phone5 = "317 862 9398";
+    public static String email5 = "consultores@humanhelp.com.co";
+    public static int imageFile5 = R.drawable.hhelp;
+    public static String coords5 = "#";
 
     public static String title6 = "Carva de Colombia";
-    public static String description6 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone6 = "3103903619";
-    public static String email6 = "info@clinicaodontologicaah.com";
-    public static int imageFile6 = R.drawable.ahd;
-    public static String coords6 = "3.420563, -76.538631";
+    public static String description6 = "Actividad:\n" + "\nEmpresa prestadora de bienes y servicios (EPS Hogar)\n" +
+            "Somos la solución rápida, eficaz y económica para las necesidades locativas y de mensajería.\n" + "\nBeneficio:\n" + "\nDescuento del 10% en afiliación a EPS Hogar.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación. Aplica solo para Cali y Palmira.\n" + "\nContacto:\n" + "\nwww.carvadecolombia.com\n" +
+            "Movil 316 370 1016 - 316 564 6907 / Tel. (2) 287 1620 - 272 3060 Gladys Varón / e-mail: gerenciacomercial@carvadecolombia.com\n";
+    public static String phone6 = "316 564 6907";
+    public static String email6 = "gerenciacomercial@carvadecolombia.com";
+    public static int imageFile6 = R.drawable.carva;
+    public static String coords6 = "3.437920, -76.512621";
 
     public static String title7 = "Extreme World";
-    public static String description7 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone7 = "0326674949";
-    public static String email7 = "dcc1@hoteltorresdecali.com";
-    public static int imageFile7 = R.drawable.torred;
-    public static String coords7 = "3.458840, -76.528739";
+    public static String description7 = "Actividad:\n" + "\nVentas y mantenimiento de equipos de gimnasio. Accesorios y repuestos para bicicletas.\n" + "\nBeneficio:\n" + "\nDescuento del 15% en compra de equipos de gimnasio y accesorios. Descuento del 20% en servicio técnico.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.extremeworld.com.co\n" +
+            "PBX (2) 375 7993 / Movil 314 726 1853 - 320 696 3881\n" +
+            "e-mail: gerencia@extremeworld.com.co - aparmenida@hotmail.com\n";
+    public static String phone7 = "314 726 1853";
+    public static String email7 = "aparmenida@hotmail.comm";
+    public static int imageFile7 = R.drawable.extremeW;
+    public static String coords7 = "3.451956, -76.522656";
 
     public static String title8 = "Alta Peluquería New Life";
-    public static String description8 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone8 = "3007297817";
-    public static String email8 = "servicioalcliente@medicacolombia.com";
-    public static int imageFile8 = R.drawable.medicalded;
-    public static String coords8 = "3.460538, -76.528471";
+    public static String description8 = "Actividad:\n" + "\n Peluqueria, spa, estética y reflexologia.\n" + "\nBeneficio:\n" + "\nDescuento 20% en todos productos y servicios.\n" +
+            "Cursos de etiqueta glamour y maquillaje para empresas.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" +
+            "Anthony Peña / Movil 315 657 0302 Nancy Peña / Movil 316 345 9323\n";
+    public static String phone8 = "316 345 9323";
+    public static String email8 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile8 = R.drawable.pelu;
+    public static String coords8 = "3.423058, -76.545754";
 
     public static String title9 = "Yanoconas Motor";
-    public static String description9 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone9 = "3183891780,";
-    public static String email9 = "cali@casatoscano.com";
-    public static int imageFile9 = R.drawable.toscanod;
-    public static String coords9 = "3.451499, -76.538702";
+    public static String description9 = "Actividad:\n" + "\nCompra y venta de Vehículos, taller, accesorios, repuestos para automóviles.\n" + "\nBeneficio:\n" + "\n Descuento 10% compra vehículo. Descuento del 20% en mano de obra. Descuento del 10% en repuestos.\n" + "\nCondiciones y Restricciones:\n"+
+            "Presentar el carnet del Club Recordar y el documento de identificación\n" + "\nContacto:\n" + "\nwww.yanaconasmotor.com.co\n" +
+            "Movil 321 802 9652 - 317 594 0393\n" + "Harold Meneses / e-mail: harold.meneses@yanaconasmotor.com.co Adriana Garcia Hidalgo / e-mail: adriana.garcia@yanaconasmotor.com.co\n";
+
+    public static String phone9 = "321 802 9652";
+    public static String email9 = "adriana.garcia@yanaconasmotor.com.co\\";
+    public static int imageFile9 = R.drawable.yanac;
+    public static String coords9 = "3.369100, -76.523690";
 
     public static String title10 = "Ortho Oral";
     public static String description10 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +

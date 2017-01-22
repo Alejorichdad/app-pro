@@ -25,28 +25,28 @@ public class ContentCali {
     public static String description3 = "Institución de formación para el trabajo y el desarrollo humano";
 
     public static String titulo4 = "CCED";
-    public static int imageFile4 = R.drawable.fomento;
-    public static String description4 = "Institución prestadora de servicios en salud";
+    public static int imageFile4 = R.drawable.ccedd;
+    public static String description4 = "Formamos los mejores técnicos laborales en programas con calidad certificada.";
 
     public static String titulo5 = "Human Help";
-    public static int imageFile5 = R.drawable.angel;
-    public static String description5 = "Buscamos tu bienestar";
+    public static int imageFile5 = R.drawable.hhelp;
+    public static String description5 = "Consultoría en procesos de gestión humana.";
 
     public static String titulo6 = "Carva de Colombia";
-    public static int imageFile6 = R.drawable.ah;
-    public static String description6 = "Verte sonreír, nuestra razón de ser";
+    public static int imageFile6 = R.drawable.carva;
+    public static String description6 = "Empresa prestadora de bienes y servicios (EPS Hogar)";
 
     public static String titulo7 = "Extreme World";
-    public static int imageFile7 = R.drawable.torre;
-    public static String description7 = "Ubicado muy cerca del centro de la ciudad";
+    public static int imageFile7 = R.drawable.extremeW;
+    public static String description7 = "Ventas y mantenimiento de equipos de gimnasio. Accesorios y repuestos para bicicletas.";
 
     public static String titulo8 = "Alta Peluquería New Life";
-    public static int imageFile8 = R.drawable.medical;
-    public static String description8 = "Cuidando tu salud en casa";
+    public static int imageFile8 = R.drawable.pelu;
+    public static String description8 = "Peluqueria, spa, estetica y reflexologia.";
 
     public static String titulo9 = "Yanoconas Motor";
-    public static int imageFile9 = R.drawable.toscano;
-    public static String description9 = "!Escapate en Toscano! a la Sucursal del Cielo";
+    public static int imageFile9 = R.drawable.yanac;
+    public static String description9 = "Compra y venta de Vehículos, taller, accesorios, repuestos para automóviles.";
 
     public static String titulo10 = "Ortho Oral";
     public static int imageFile10 = R.drawable.tienda1;
