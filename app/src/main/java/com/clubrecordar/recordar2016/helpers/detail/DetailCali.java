@@ -95,7 +95,7 @@ public class DetailCali {
             "e-mail: gerencia@extremeworld.com.co - aparmenida@hotmail.com\n";
     public static String phone7 = "314 726 1853";
     public static String email7 = "aparmenida@hotmail.comm";
-    public static int imageFile7 = R.drawable.extremeW;
+    public static int imageFile7 = R.drawable.carva;
     public static String coords7 = "3.451956, -76.522656";
 
     public static String title8 = "Alta Peluquería New Life";
@@ -118,76 +118,104 @@ public class DetailCali {
     public static String coords9 = "3.369100, -76.523690";
 
     public static String title10 = "Ortho Oral";
-    public static String description10 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone10 = "3162914617,";
-    public static String email10 = "eventos@elranchodejonas.com";
-    public static int imageFile10 = R.drawable.tiendad;
-    public static String coords10 = "3.416734, -76.536952";
+    public static String description10 = "Actividad:\n" + "\nInstitución integral en servicios odontológicos, contamos con odontología general y especializada en ortodoncia, periodoncia, endodoncia, cirugía oral, rehabilitación oral, odontopediatría e higiene oral, te hacemos el acompañamiento para que tengas una buena salud oral.\n" + "\nBeneficio:\n" + "\n Descuento del 20% en procedimientos odontológicos. Valoración sin costo.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.orthooral.co\n" +
+            "Movil 310 503 6273\n" +  "Leonor Cabal / e-mail: orthooral@hotmail.com\n";
+    public static String phone10 = "310 503 6273";
+    public static String email10 = "orthooral@hotmail.com";
+    public static int imageFile10 = R.drawable.orthod;
+    public static String coords10 = "3.460467, -76.506955\n";
+
 
     public static String title11 = "Boca Nostra";
-    public static String description11 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone11 = "3162914617";
-    public static String email11 = "eventos@elranchodejonas.com";
-    public static int imageFile11 = R.drawable.ranchod;
-    public static String coords11 = "3.417139, -76.536709";
+    public static String description11 = "Actividad:\n" + "\nOrtodoncia y diseño dental\n" +
+            "Nuestros servicios:\n" +
+            "Odonotologia general, odontopediatria, ortodoncia, estetica dental, diseño de sonrisa, rehabilitacion oral, blanqueamiento dental, higiene oral & remocion de manchas.\n" + "\nBeneficio:\n" + "\nDescuento del 30% en todos los servicios\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nCali Tel. (2) 339 2988 / Movil 316 405 7400\n" +
+            "Palmira Tel. (2) 272 3996 - 273 5727\n" +
+            "Movil 315 660 7926\n" +
+            "Reinel Angulo Quiroz /  mercadeoclinicaopal@hotmail.com\n";
+    public static String phone11 = "032 272 3996";
+    public static String email11 = "mercadeoclinicaopal@hotmail.com";
+    public static int imageFile11 = R.drawable.boca;
+    public static String coords11 = "3.397940, -76.540415\n";
 
     public static String title12 = "Angel";
-    public static String description12 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
+    public static String description12 = "Actividad:\n" + "\nBrindamos servicios de laboratorio clínico accesibles, oportunos, confiables, seguros, confidenciales y una atención humanizada, que soportan el proceso diagnóstico de su médico tratante.\n" + "\nBeneficio:\n" + "\n20%de descuento en exámenes de laboratorio clínico de Nivel I, II y III en la ciudad de Cali (6912) y Buenaventura (6913).\n" +
+            "10% de descuento en exámenes de laboratorio clínico de Nivel I, II y III en Jamundí (6914), Yumbo (6916), Palmira(6917), Cartago (6920), Buga (6918) y Popayán (6915).\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nTel. (2) 660 7070\n" +
+            "www.angel.com.co\n";
     public static String phone12 = "1244567";
-    public static String email12 = "some@gmail.com";
-    public static int imageFile12 = R.drawable.tienda;
-    public static String coords12 = "37.7749,-122.4194";
+    public static String email12 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile12 = R.drawable.angel;
+    public static String coords12 = "3.400321, -76.537379";
 
     public static String title13 = "DentAH";
-    public static String description13 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
+    public static String description13 = "Actividad:\n" + "\nClínica odontológica, Centro de Estética y Spa\n" +
+            "Prestamos servicios de odontología general y todas las especialidades como son endodoncia, ortodoncia, periodoncia, rehabilitación oral, implantologia oral, diseño de sonrisa.\n" +
+            "Tratamientos faciales y corporales, baño de chocolate, masajes reductores, depilación entre otros.\n" + "\nBeneficio:\n" + "\nDescuento del 15% al 30% en los tratamientos odontológicos. Limpieza facial 2 x 1 $50.000.\n" +
+            "Spa por persona $105.000.\n" +
+            "Spa para dos $195.000.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" +
+            " \n" + "\nContacto:\n" + "\nCl. 9 #40 - 19 / Movil 300 433 5052 / Tel. (2) 315 6337\n" +
+            "Álvaro Jose Alemán - Propietario / e-mail: clinicaodontologicaa.h@hotmail.com\n";
+
     public static String phone13 = "1344567";
-    public static String email13 = "some@gmail.com";
-    public static int imageFile13 = R.drawable.tienda;
-    public static String coords13 = "37.7749,-122.4194";
+    public static String email13 = "clinicaodontologicaa.h@hotmail.com";
+    public static int imageFile13 = R.drawable.dentah;
+    public static String coords13 = "3.423763, -76.544947";
 
     public static String title14 = "Elyon";
-    public static String description14 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone14 = "1444567";
-    public static String email14 = "some@gmail.com";
-    public static int imageFile14 = R.drawable.tienda;
-    public static String coords14 = "37.7749,-122.4194";
+    public static String description14 = "Actividad:\n" + "\nOfrecemos a nuestros clientes, lentes progresivos en todas las gamas, lentes transitions y antirreflejo, en tallas convencionales y digitales.\n" +
+            "Monturas de Sol y Oftalmológicas.\n" + "\nBeneficio:\n" + "\nDescuento 15% en todos los productos y servicios. Descuento del 20% en el mes de cumpleaños. Descuentos aplicables a familiares del afiliado.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" +
+            "Se debre presentar el documento de identificación para aplicar al descuento de cumpleaños.\n" + "\nContacto:\n" + "\nMovil 304 588 9191 - 317 377 9733\n" +
+            "Maria del Socorro Panesso - Administradora / e-mail: opticaelyon@gmail.com\n";
+    public static String phone14 = "304 588 9191";
+    public static String email14 = "opticaelyon@gmail.com";
+    public static int imageFile14 = R.drawable.elion;
+    public static String coords14 = "#";
 
     public static String title15 = "OptiColor";
-    public static String description15 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone15 = "1544567";
-    public static String email15 = "some@gmail.com";
-    public static int imageFile15 = R.drawable.tienda;
-    public static String coords15 = "37.7749,-122.4194";
+    public static String description15 = "Actividad:\n" + "\nCompra y venta de gafas, lentes de contacto y todo lo relacionado a la salud visual,\n" +
+            "exámen de optometría y terapias.\n" + "\nBeneficio:\n" + "\nDescuento del 20% en lentes monofocales y bifocales.\n" +
+            "Descuento del 10% en lentes especiales.\n" +
+            "Descuento del 15% en monturas de $100.000 en adelante.\n" +
+            "Valoración y consulta $12.000, se obsequia si se compran las gafas en la óptica.\n" +
+            "Certificados estudiantiles o laborales $16.000.\n" +
+            "Para las empresas que sean miembros del Club Recordar, venta y adaptación de\n" +
+            "gafas de seguridad formuladas.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" +
+            "Estos descuentos aplican con pago en efectivo.\n" + "\nContacto:\n" + "\nTel. (2) 402 9523 - 403 5006\n" +
+            "Ext. 101 (Para Solicitud de citas los afiliados)\n" +
+            "Ext. 108 (Para empresas, brigadas de salud visual)\n" +
+            "Julio Jimenez / Movil 313 661 2550 / e-mail: ventas1@opticolorbg.com\n";
+    public static String phone15 = "313 661 2550";
+    public static String email15 = "ventas1@opticolorbg.com";
+    public static int imageFile15 = R.drawable.opti;
+    public static String coords15 = "3.465360, -76.528561";
 
     public static String title16 = "Hotel Torre de Cali";
-    public static String description16 ="Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone16 = "23545455";
-    public static String email16 = "#";
-    public static int imageFile16 = R.drawable.tienda;
-    public static String coords16 = "37.7749,-122.4194";
+    public static String description16 ="Actividad:\n" + "\nHoteliría. Nuestra felicidad es permanecer en el corazón de nuestros huéspedes y visitantes, al satisfacer sus deseos con amor, calidez, amabilidad, seguridad y servicio de excelente calidad\n" + "\nBeneficio:\n" + "\n Plan Básico Alojamiento $130.000 incluye desayuno.\n" +
+            "Plan Romántico $160.000.\n" + "Descuento para empresas: 5% descuento en alimentos; 10% descuento en alquiler de salones.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.hoteltorredecali.com\n" +
+            "PBX (2) 683 3535 - 667 4949\n" +
+            "Departamento de reservas / e-mail: reservas@hoteltorredecali.com\n";
+    public static String phone16 = "317 364 5146";
+    public static String email16 = "reservas@hoteltorredecali.com";
+    public static int imageFile16 = R.drawable.torred;
+    public static String coords16 = "3.459010, -76.528985";
 
     public static String title17 = "Korin Tours";
-    public static String description17 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone17 = "23545455";
-    public static String email17 = "#";
-    public static int imageFile17 = R.drawable.tienda;
-    public static String coords17 = "37.7749,-122.4194";
+    public static String description17 = "Actividad:\n" + "\nCreamos su plan de turismo de acuerdo a su presupuesto.\n" + "\nBeneficio:\n" + "\n Descuento del 7% en planes terrestres y aéreos, antes de impuestos.\n" +  "\n Condiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación. Reservar con 8 días de anticipación..\n" + "\nContacto:\n" + "\nwww.korintours.com\n" +
+            "Tel. (2) 650 4023 - 668 0433 Movil 315 821 2196 Ricardo Idarraga / e-mail: gerencia@korintours.com\n";
+    public static String phone17 = "032 650 4023";
+    public static String email17 = "gerencia@korintours.com";
+    public static int imageFile17 = R.drawable.korin;
+    public static String coords17 = "3.459696, -76.529258";
 
     public static String title18 = "Lago grande";
-    public static String description18 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
-            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
-    public static String phone18 = "23545455";
-    public static String email18 = "#";
-    public static int imageFile18 = R.drawable.tienda;
-    public static String coords18 = "37.7749,-122.4194";
+    public static String description18 = "Actividad:\n" + "\nPrestacion de servicios hoteleros, pasadías, eventos y recreación en general.\n" + "\nBeneficio:\n" + "\n25% de descuento en planes de alojamiento de lunes a viernes.\n" +
+            "12% de descuento en planes de alojamiento sabados y domingos.\n" +
+            "10% de descuento en restaurante y en planes de pasadía sencillo y todo incluido. 9% de descuento en planes de alojamiento en festivos.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación. Reservar con 8 días de anticipación.\n" + "\nContacto:\n" + "\nwww.lagograndehotel.com.\n" +
+            "Oficina: Cra. 100 15-132 Cali / Teléfono (2) 379 9669 / Móvil 313 589 5222 Veronica Toro / E-mail: reservas@lagograndehotel.com comercial@lagograndehotel.com.\n";
+    public static String phone18 = "313 589 5222";
+    public static String email18 = "reservas@lagograndehotel.com";
+    public static int imageFile18 = R.drawable.lago;
+    public static String coords18 = "3.459696, -76.529258";
 
     public static void addObjectsCali() {
         try {
@@ -208,8 +236,8 @@ public class DetailCali {
             mainContentCali.put("item14", getFourteenthItemData());
             mainContentCali.put("item15", getFifteenthItemData());
             mainContentCali.put("item16", getSixteenthItemData());
-            mainContentCali.put("item17", getSevenththItemData());
-            mainContentCali.put("item18", getEighthItemData());
+            mainContentCali.put("item17", getSeventeenthItemData());
+            mainContentCali.put("item18", getEighteenthItemData());
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -424,7 +452,7 @@ public class DetailCali {
         return contentCali17;
     }
 
-    public static JSONObject getEightheeItemData() throws JSONException {
+    public static JSONObject getEighteenthItemData() throws JSONException {
 
         contentCali18.put("title", title18);
         contentCali18.put("description", description18);

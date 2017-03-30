@@ -28,68 +28,85 @@ public class DetailCartagena {
 
     /* DATA */
 
-    public static String title1 = "Planes de Vacaciones, Románticos, Familiares";
-    public static String description1 = "Contacto: Iveth Buendia, beneficio afiliados: 239 mil pesos noche para dos personas.";
-    public static String phone1 = "3006107384";
-    public static String email1 = "atencionalcliente@hoteldanncartagena.com";
-    public static int imageFile1 = R.drawable.dannd;
-    public static String coords1 = "10.397496, -75.563220";
+    public static String title1 = "Cararin";
+    public static String description1 = "Actividad:\n" + "\nClub deportivo de beisbol.\n" + "\nBeneficio:\n" + "50% de descuento en el pago de inscripción. 50% de descuentoto en la mensualidad.\n" + "\nCondiciones y Restricciones:\n" + "\nSe debe presentar el documento de identificación para aplicar al descuento de cumpleaños.\n" + "\nContacto:\n" + "Carlos Ramirez Rincón / Movil: 317 860 7367 - 310 400 7427\n";
 
-    public static String title2 = "12 pistas de bolos equipadas con tecnología de punta";
-    public static String description2 = "Contacto: Melissa Daza, beneficio afiliados: zapatos para juego sin costo.";
-    public static String phone2 = " 3015174869";
+    public static String phone1 = "317 860 7367";
+    public static String email1 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile1 = R.drawable.cararin;
+    public static String coords1 = "#";
+
+    public static String title2 = "Instituto Colombiano de Salud";
+    public static String description2 = "Actividad:\n" + "\nEducación técnica laboral para el desarrollo humano con la formación en programas de salud y otros.\n" + "\nBeneficio:\n" + "\n15% de decuento en la matrícula de todos los programas.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nAvda. Pedro de Heredia No. 35-103 Tel: 6722917 - 6722758  / \n";
+    public static String phone2 = "035  6722917";
     public static String email2 = "bailaboleracartagena@gmail.com";
-    public static int imageFile2 = R.drawable.bolerad;
-    public static String coords2 = "10.420750, -75.538963";
+    public static int imageFile2 = R.drawable.ics;
+    public static String coords2 = "10.412354, -75.532457";
 
-    public static String title3 = "Educación superior formal";
-    public static String description3 = "Contacto: Verónica Rivera, beneficio afiliados: 30% de descuento en la matricula para sus socios.";
-    public static String phone3 = "3213943010";
-    public static String email3 = "veronica_rivera@cun.edu.co";
-    public static int imageFile3 = R.drawable.cund;
-    public static String coords3 = "10.427943, -75.546242";
+    public static String title3 = "Acción de Gracias";
+    public static String description3 = "Actividad:\n" + "\nSuministro de comidas y bebidas alcoholicas y no alcoholicas.\n" + "\nBeneficio:\n" + "\n5% de descuento en todas las comidas de la carta.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación. No Aplica el descuento para las bebidas.\n" + "\nContacto:\n" + "\nCentro Historico Calle 30 #8B-62\n" +
+            "Judith Castañeda / Movil: 300 800 0570\n";
 
-    public static String title4 = "Academia de Bellas Artes";
-    public static String description4 = "Contacto: Angelica Fortich, beneficio afiliados: tarifa especial de $340 mil el semestre de cursos.";
-    public static String phone4 = "3172303610";
-    public static String email4 = "apoyologistico@unibaq.edu.co";
-    public static int imageFile4 = R.drawable.bellasad;
-    public static String coords4 = "11.002924, -74.823356";
+    public static String phone3 = "300 800 0570";
+    public static String email3 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile3 = R.drawable.accion;
+    public static String coords3 = "10.421971, -75.546945";
 
-    public static String title5 = "Odontología avanzada Jorge Macias";
-    public static String description5 = "Contacto: Dr: Jorge Maciá, beneficio afiliados: 20%. Bocagrande Edificio Seguros Bolívar Local 6 # 14-97.";
-    public static String phone5 = "3007558046";
-    public static String email5 = "jorgemaciadds@yahoo.es  ";
-    public static int imageFile5 = R.drawable.odotod;
-    public static String coords5 = "10.413737, -75.550268";
+    public static String title4 = "Chelisha";
+    public static String description4 = "Actividad:\n" + "\nCasa de eventos.\n" + "\nBeneficio:\n" + "\n10% de descuento en alquiler de sillas, mesas, mantelería y samovares.\n" +
+            "Salón gratuito con aire acondicionado para paquetes cero estrés (matromonios y quinceañeros con el paquete gama de servicios completo).\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación. No Aplica el descuento para las bebidas.\n" + "\nContacto:\n" + "\nMartha Ligia García / Movil: (5) 651 2923 - 690 2257\n";
+    public static String phone4 = "035 651 2923";
+    public static String email4 = "chelishaeventos@hotmail.com";
+    public static int imageFile4 = R.drawable.shelsa;
+    public static String coords4 = "10.396420, -75.483949";
 
-    public static String title6 = "Spa Paltiel";
-    public static String description6 = "Contacto: Alexandra Mercado Osorio, beneficio afiliados: descuento 30% spa movil.";
-    public static String phone6 = "3106233693";
+    public static String title5 = "CompuWorking";
+    public static String description5 = "Actividad:\n" + "\nEs una empresa dedicada a la Compra y venta de partes y equipo de computación, la reparación y matenimiento de computadores, servicios tecnicos en general, relación de redes de computación y comunicación, accesorios para computadores y muebles para uso de oficina.\n" + "\nBeneficio:\n" + "- 5% de dto en computadores portatiles, tablets y televisores.\n" +
+            "- 5% de dto periféricos (impresoras, monitores, ups, scanner, post, proyectores, dvr). - 5% de dto en muebles (escritorio y sillas).\n" +
+            "- 10% partes (disco, memoria, procesador, board, fuente, quemador, etc.).\n" +
+            "- 10% toner, subwoofer, redes (router, switch, tarjeta de red, cableado).\n" +
+            "- 10% en licenciamiento (windows, office, accesorios).\n" + "\nCondiciones y Restricciones:\n" + "\nSe debe presentar el documento de identificación para aplicar al descuento de cumpleaños.\n" + "\nContacto:\n" + "www.computerworking.com.co Manuel Ballestas / Movil 314 556 1502\n";
+    public static String phone5 = "314 556 1502";
+    public static String email5 = "comercial@computerworking.net";
+    public static int imageFile5 = R.drawable.compuw;
+    public static String coords5 = "10.424558, -75.546884";
+
+    public static String title6 = "Mendoza Master";
+    public static String description6 = "Actividad:\n" + "\nDiseño, fotograbado en metal, prensado, estampado y laminado de metal.\n" + "\nBeneficio:\n" + "20% de descuento en todos los productos.\n" + "\nCondiciones y Restricciones:\n" + "\nSe debe presentar el documento de identificación para aplicar al descuento de cumpleaños.\n" + "\nContacto:\n" + "www.mendozamaster.com\n" +
+            "Cra. 17 # 46-32 / Tel. (5) 666 4093\n" +
+            "Jairo Antonio Mendoza / Movil 315 639 5127\n";
+
+    public static String phone6 = "315 639 5127";
     public static String email6 = "gerencia@paltiel.com.co";
-    public static int imageFile6 = R.drawable.paltield;
-    public static String coords6 = "10.424582, -75.548215";
+    public static int imageFile6 = R.drawable.mendoza;
+    public static String coords6 = "10.431037, -75.532426";
 
     public static String title7 = "City trolley tour";
-    public static String description7 = "Contacto: Juan Camilo Rivera, beneficio para los afiliados: 35% descuento en nuestro servicios VIP de tour por la ciudad.";
-    public static String phone7 = " 3002530210";
+    public static String description7 = "Actividad:\n" + "\nPrestación, gestión, organización y planeación de servicio público de transporte turístico terrestre.\n" + "\nBeneficio:\n" + "30% de descuento en City Trolley Tour diurno y norcturno.\n" +
+            "30% de descuento en Alquiler de Trolley para eventos especiales.\n" + "\nCondiciones y Restricciones:\n" + "\nSe debe presentar el documento de identificación para aplicar al descuento de cumpleaños.\n" + "\nContacto:\n" + "www.colombiatrolley.com\n" +
+            "Juan Camilo Rivera / Movil 300 253 3500 / Tel. (5) 643 7786\n";
+    public static String phone7 = "300 253 3500";
     public static String email7 = "jcrivera@colombiatrolley.com";
     public static int imageFile7 = R.drawable.troleyd;
     public static String coords7 = "10.414058, -75.542413";
 
-    public static String title8 = "titulo8";
-    public static String description8 = "description8";
-    public static String phone8 = "844567";
-    public static String email8 = "some@gmail.com";
-    public static int imageFile8 = R.drawable.tienda;
-    public static String coords8 = "37.7749,-122.4194";
+    public static String title8 = "Hotel playa Club";
+    public static String description8 = "Actividad:\n" + "\nHotelería, creación y ejecución de paquetes turísticos.\n" + "\nBeneficio:\n" + "15% de descuento para alojamientos de 1 a 4 noches y de 5 noches en adelante se otorga 1 alojamiento gratis incluido desayuno..\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación. No aplica para consumo de restaurante, ni lavandería.\n" + "\nContacto:\n" + "www.hotelplayaclub.com\n" +
+            "Bocagrande Avenida san martin No 4-87 Maudry Herrera / Movil: 301 506 1230";
+    public static String phone8 = "301 506 1230";
+    public static String email8 = "info@hotelplayaclub.com";
+    public static int imageFile8 = R.drawable.tressesenta;
+    public static String coords8 = "10.399246, -75.559760";
 
-    public static String title9 = "titulo9";
-    public static String description9 = "description9";
-    public static String phone9 = "944567";
-    public static String email9 = "some@gmail.com";
-    public static int imageFile9 = R.drawable.tienda;
-    public static String coords9 = "37.7749,-122.4194";
+    public static String title9 = "Camino";
+    public static String description9 = "Actividad:\n" + "\nOperación se servicios turísticos en la ciudad de Cartagena y las Islas del Rosario.\n" + "\nBeneficio:\n" + "20% de descuento en:\n" +
+            "Pasadía a Cocoliso, incluye trasporte, almuerzo y acceso a áreas del Hotel. Pasadía a Islas del Rosario y Playa Blanca, incluye trasnporte en Yate Alcatraz y almuerzo.\n" +
+            "10% de descuento en hospedaje en Cocoliso Resort.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "www.caminotours.com.co\n" +
+            "Bocagrande A.v. San Martín No. 4-18 Ed. Maray Local 1 Mile Fonseca / Movil 301 468 5507\n";
+    public static String phone9 = "301 468 5507";
+    public static String email9 = "alejandro.cluubrecordar@gmail.com";
+    public static int imageFile9 = R.drawable.camino;
+    public static String coords9 = "310.398814, -75.559949";
 
     public static String title10 = "titulo10";
     public static String description10 = "description10";

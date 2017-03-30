@@ -13,25 +13,25 @@ public class ContentNational {
 
     public static List<NationalModel> contentNational =  new ArrayList<>();
 
-    public static String titulo1 = "Sonría";
-    public static int imageFile1 = R.drawable.sonria;
-    public static String description1 = "El poder de tu sonrisa";
+    public static String titulo1 = "Cad Conocimiento";
+    public static int imageFile1 = R.drawable.cad;
+    public static String description1 = "Tu mascota lo merece";
 
-    public static String titulo2 = "Helados Mimos";
-    public static int imageFile2 = R.drawable.mimos;
-    public static String description2 = "Disfruta con esta deliciosa alianza";
+    public static String titulo2 = "Alfa 21";
+    public static int imageFile2 = R.drawable.alfa;
+    public static String description2 = "Organización de convenciones y eventos comerciales";
 
-    public static String titulo3 = "Computadores y tecnología";
-    public static int imageFile3 = R.drawable.compuworking;
-    public static String description3 = "¿Necesitas un computador nuevo?";
+    public static String titulo3 = "Minset";
+    public static int imageFile3 = R.drawable.minset;
+    public static String description3 = "Branding y Comunicación";
 
-    public static String titulo4 = "Escuela de negocios";
-    public static int imageFile4 = R.drawable.ceipa;
-    public static String description4 = "Somos la universidad de la empresa";
+    public static String titulo4 = "Artes Gráficas del Norte";
+    public static int imageFile4 = R.drawable.agn;
+    public static String description4 = "Impresión y articulos Publicitarios.";
 
-    public static String titulo5 = "Lo mejor en impresión";
-    public static int imageFile5 = R.drawable.agn;
-    public static String description5 = "Los mejores precios y mayor calidad";
+    public static String titulo5 = "Sonría";
+    public static int imageFile5 = R.drawable.sonria;
+    public static String description5 = "Clínica Dental Sonría";
 
     public static String titulo6 = "Presto desde 1981";
     public static int imageFile6 = R.drawable.presto;
@@ -74,21 +74,22 @@ public class ContentNational {
     public static String description15 = "Próximamente";
 
     public static void addContentNational(){
+
         contentNational.add(new NationalModel(imageFile1, titulo1, description1));
         contentNational.add(new NationalModel(imageFile2, titulo2, description2));
         contentNational.add(new NationalModel(imageFile3, titulo3, description3));
         contentNational.add(new NationalModel(imageFile4, titulo4, description4));
         contentNational.add(new NationalModel(imageFile5, titulo5, description5));
-        contentNational.add(new NationalModel(imageFile6, titulo6, description6));
-        contentNational.add(new NationalModel(imageFile7, titulo7, description7));
-        contentNational.add(new NationalModel(imageFile8, titulo8, description8));
-        contentNational.add(new NationalModel(imageFile9, titulo9, description9));
-        contentNational.add(new NationalModel(imageFile10, titulo10, description10));
-        contentNational.add(new NationalModel(imageFile11, titulo11, description11));
-        contentNational.add(new NationalModel(imageFile12, titulo12, description12));
-        contentNational.add(new NationalModel(imageFile13, titulo13, description13));
-        contentNational.add(new NationalModel(imageFile14, titulo14, description14));
-        contentNational.add(new NationalModel(imageFile15, titulo15, description15));
+       // contentNational.add(new NationalModel(imageFile6, titulo6, description6));
+       // contentNational.add(new NationalModel(imageFile7, titulo7, description7));
+       // contentNational.add(new NationalModel(imageFile8, titulo8, description8));
+       // contentNational.add(new NationalModel(imageFile9, titulo9, description9));
+       // contentNational.add(new NationalModel(imageFile10, titulo10, description10));
+       // contentNational.add(new NationalModel(imageFile11, titulo11, description11));
+       // contentNational.add(new NationalModel(imageFile12, titulo12, description12));
+       //contentNational.add(new NationalModel(imageFile13, titulo13, description13));
+       // contentNational.add(new NationalModel(imageFile14, titulo14, description14));
+       // contentNational.add(new NationalModel(imageFile15, titulo15, description15));
     }
 
     public static List<NationalModel> getContentNational(){

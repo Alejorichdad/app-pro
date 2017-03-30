@@ -28,42 +28,53 @@ public class DetailNational {
 
     /* DATA */
 
-    public static String title1 = "Clínica Dental Sonría";
-    public static String description1 = "Contacto: Diego Delgadillo, beneficio afiliados, 35% de descuento en todos los tratamientos excepto promocionales.";
-    public static String phone1 = "3195434436";
-    public static String email1 = "diego.delgadillo@sonria.com.co";
-    public static int imageFile1 = R.drawable.sonriad;
-    public static String coords1 = "4.644985, -74.072570";
+    public static String title1 = "Cad Conocimiento";
+    public static String description1 = "Actividad:\n" + "\nEs una empresa de capacitación especializada en estrenamiento desarrollo y fortalecimiento del talento humano atráves de dos grandes herramientas de fortalecimiento humano que son el coaching y el PNL.\n" + "\nBeneficio:\n" + "\nLa tarifa para miembros de Club recordar es de $126.000 por cualquier tipo de fortalecimiento, entrenamiento o coaching. Los servicios empresariales se brindan a nivel nacional.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.cad-conocimiento.com.co\n" +
+            "PBX: 759 1218 Movil 317 364 5146 / info@cad-conocimiento.com.co\n";
+    public static String phone1 = "317 364 5146 ";
+    public static String email1 = "info@cad-conocimiento.com.co";
+    public static int imageFile1 = R.drawable.cad;
+    public static String coords1 = "#";
 
-    public static String title2 = "Heladeria Mimos";
-    public static String description2 = "Presentando tarjeta Recordar por la compra de un “mixer galleta” recibe un (1) segundo mixer galleta gratis.\n" + "- Condiciones: No aplica para domicilios, producto no valido en empaque para llevar.\n" +
-            "Aplica en todos los puntos de venta “Mimo´s” a nivel nacional con" +
-            "excepción de aquellos localizados en los aeropuertos y puntos de venta Flamingo.";
-    public static String phone2 = "0314100099";
-    public static String email2 = "servicioalcliente@conboca.com";
-    public static int imageFile2 = R.drawable.mimod;
-    public static String coords2 = "4.698125, -74.047664";
+    public static String title2 = "Alfa 21";
+    public static String description2 = "Actividad:\n" + "\nOrganización de convenciones y eventos comerciales, actividades formativas, agencias de viajes, logística y calendario empresarial.\n" +
+            "Presentar el carnet del Club Recordar y el documento de identificación. El descuentos no es aplicable para tiquetes aéreos.\n" + "\nBeneficio:\n" + "\nEDUCACIÓN; 7,5% de descuento en: Actividades formativas, entrenamiento de coaching estratégico, entrenamiento de coaching empresarial y programación neurolingüistica (PNL)\n" +
+            "LOGISTICA EMPRESARIAL; 5% de descuento en: Integral, complementaria y eventos. CALENDARIO EMPRESARIAL; 7,5% de descuento en: Todas las actividades diarias. AGENCIA DE VIAJES; 2,5% de descuento en: Todos los planes turisticos.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación. El descuentos no es aplicable para tiquetes aéreos.\n" + "\nContacto:\n" + "\nwww.alfa21.com.co\n" +
+            "Cra. 25 No. 52-25 Galerías / Móvil 319 422 5866 Jacqueline Gaitan Romero\n";
+    public static String phone2 = "319 422 5866";
+    public static String email2 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile2 = R.drawable.alfa;
+    public static String coords2 = "4.641029, -74.074628";
 
-    public static String title3 = "Computadores y tecnología";
-    public static String description3 = "Contacto: Manuel Ballestas, beneficio afiliados: Variedad de productos con descuentos periódicamente.";;
-    public static String phone3 = "3192486718";
-    public static String email3 = "corporativo@computerworking.net";
-    public static int imageFile3 = R.drawable.computerd;
-    public static String coords3 = "10.424608, -75.546924";
+    public static String title3 = "Mindset";
+    public static String description3 = "Actividad:\n" + "\nBranding y Comunicación\n" + "\nBeneficio:\n" + "\nDescuento del 10% sobre la lista de precios de los servicios de creatividad y diseño gráfico descritos en el tarifario adjunto\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.mindsetgroup.co\n" +
+            "Cra. 9 No. 53-58 Of. 708 Chapinero / Movil 317-4287724 Fijo 3573502 Javier Puentes - Director Ejecutivo / javier.p@mindsetgroup.co\n";
+    public static String phone3 = "3174287724";
+    public static String email3 = "javier.p@mindsetgroup.co";
+    public static int imageFile3 = R.drawable.minset;
+    public static String coords3 = "4.640155, -74.063433";
 
-    public static String title4 = "Escuela de negocios";
-    public static String description4 = "Contacto: Andrés Espinoza, beneficio afiliados: 13% devdescuento en educación virtual.";
-    public static String phone4 = "3192486718";
-    public static String email4 = "andres.espinoza@ceipa.edu.co";
-    public static int imageFile4 = R.drawable.ceipad;
-    public static String coords4 = "6.144818, -75.619137";
+    public static String title4 = "Artes Gráficas del Norte";
+    public static String description4 = "Actividad:\n" + "\nImpresión y articulos Publicitarios.\n" + "\nBeneficio:\n" + "\n10% dcto con cualquier medio de pago.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación..\n" + "\nContacto:\n" + "\nCl 66 # 46-46 / Movil 3183867124 E-mail artesgraficasdelnorte07@gmail.com\n";
+    public static String phone4 = " 3183867124";
+    public static String email4 = " artesgraficasdelnorte07@gmail.com";
+    public static int imageFile4 = R.drawable.agnd;
+    public static String coords4 = "10.996069, -74.801846";
 
-    public static String title5 = "Artes Gráficas del Norte";
-    public static String description5 = "Contacto: Francisco Corena, beneficio afiliados: 10% de descuento en impresión litográfica, incluye envío a nivel nacional.";
-    public static String phone5 = "3183867124";
-    public static String email5 = "artesgraficasdelnorte07@gmail.com";
-    public static int imageFile5 = R.drawable.agnd;
-    public static String coords5 = "10.996069, -74.801846";
+    public static String title5 = "Sonría";
+    public static String description5 = "Actividad:\n" + "\nPrestación de servicios de Salud y asistencia en servicios de odontología general y especializada.\n" + "\nBeneficio:\n" + "\nDescuento del 30% con la tarjeta sonría y 5% adicional por la alianza.\n" +
+            "- Tarjeta Sonria personal $10.000 (Precio regular $33.200) - Tarjeta Sonría Familiar $30.000 (Precio regular $88.600)\n" +
+            "- Plan odontológico personal por un año $55.000 (Precio regular $85.000) No disponible en clínicas. Exclusivo corporativo.\n" +
+            "El plan odontological incluye lo siguiente:\n" +
+            "- Valoracion odontologica - Eliminacion de caries - Una profilaxis al año - Pulpectomia (elimination del nervio) - Exodoncias no quirúrgicas - Cementación provisional de temporales - Rx periapicales\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" +
+            "La viabilidad del tratamiento esta sujeta a sus condiciones actuales de salud.\n" + "\nContacto:\n" + "\nwww.sonria.com.co\n" +
+            " Transv. 24 No. 54-08 Galerías\n" +
+            "Diana Barón Movil 313 386 1654 / Paula Leyva Movil 311 206 6736 / convenios@sonria.com.co\n";
+
+    public static String phone5 = "311 206 6736";
+    public static String email5 = "convenios@sonria.com.co";
+    public static int imageFile5 = R.drawable.sonriad;
+    public static String coords5 = "4.644985, -74.072570";
 
     public static String title6 = "Presto desde 1981";
     public static String description6 = "Presentando la tarjeta Recordar, adquiere cualquiera de estos 3 combos por $ 11.900 cada uno.\n" + "1.Combo Súper Especial con Queso: Hamburguesa de res con queso, porción de papas mini y gaseosa  de 12 onzas. Código 2190\n" + "2.Combo Súper Pollo con Queso: Hamburguesa de pollo con queso, porción de papas mini y  Gaseosa de 12 onzas). Código 2191\n" + "3.Combo Súper Perro con Queso: Perro caliente con queso,  pepinillo, cebolla, salsa de tomate, salsa Presto, porción de papas mini y gaseosa de 12 onzas). Código 2192\n" +
@@ -148,16 +159,16 @@ public class DetailNational {
             mainContentNational.put("item3", getThirdItemData());
             mainContentNational.put("item4", getFourItemData());
             mainContentNational.put("item5", getFifthItemData());
-            mainContentNational.put("item6", getSixthItemData());
-            mainContentNational.put("item7", getSevenththItemData());
-            mainContentNational.put("item8", getEighthItemData());
-            mainContentNational.put("item9", getNinthItemData());
-            mainContentNational.put("item10", getTenthItemData());
-            mainContentNational.put("item11", getEleventhItemData());
-            mainContentNational.put("item12", getTwelvethItemData());
-            mainContentNational.put("item13", getThirdteenthItemData());
-            mainContentNational.put("item14", getFourteenthItemData());
-            mainContentNational.put("item15", getFifteenthItemData());
+           // mainContentNational.put("item6", getSixthItemData());
+           // mainContentNational.put("item7", getSevenththItemData());
+           // mainContentNational.put("item8", getEighthItemData());
+           // mainContentNational.put("item9", getNinthItemData());
+           // mainContentNational.put("item10", getTenthItemData());
+           // mainContentNational.put("item11", getEleventhItemData());
+           // mainContentNational.put("item12", getTwelvethItemData());
+           // mainContentNational.put("item13", getThirdteenthItemData());
+           //mainContentNational.put("item14", getFourteenthItemData());
+           //mainContentNational.put("item15", getFifteenthItemData());
         } catch (JSONException e) {
             e.printStackTrace();
         }

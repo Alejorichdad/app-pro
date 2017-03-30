@@ -13,41 +13,41 @@ public class ContentCartagena {
 
     public static List<CartagenaModel> contentCartagena =  new ArrayList<>();
 
-    public static String titulo1 = "Hotel Dann";
-    public static int imageFile1 = R.drawable.dann;
-    public static String description1 = "Planes de Vacaciones, Románticos, Familiares. ";
+    public static String titulo1 = "Cararin";
+    public static int imageFile1 = R.drawable.cararin;
+    public static String description1 = "lub deportivo de beisbol.. ";
 
-    public static String titulo2 = "Baila Bolera";
-    public static int imageFile2 = R.drawable.bolera;
-    public static String description2 = " 12 pistas de bolos equipadas con tecnología de punta";
+    public static String titulo2 = "Icosald";
+    public static int imageFile2 = R.drawable.ics;
+    public static String description2 = "Educación técnica laboral para el desarrollo humano";
 
-    public static String titulo3 = "Educación superior formal";
-    public static int imageFile3 = R.drawable.cun;
-    public static String description3 = " Programas académicos, campus virtual, inscripciones, sedes, educación a distancia.";
+    public static String titulo3 = "Acción de Gracias";
+    public static int imageFile3 = R.drawable.accion;
+    public static String description3 = "Suministro de comidas y bebidas alcoholicas y no alcoholicas.";
 
-    public static String titulo4 = "Academia Bellas Artes";
-    public static int imageFile4 = R.drawable.bellasa;
-    public static String description4 = "Formación artistica";
+    public static String titulo4 = "Chelisha";
+    public static int imageFile4 = R.drawable.shelsa;
+    public static String description4 = "Casa de eventos.";
 
-    public static String titulo5 = "Odontología avanzada Jorge Macias";
-    public static int imageFile5 = R.drawable.odoto;
-    public static String description5 = "Somos un centro de odontología especializada ";
+    public static String titulo5 = "CompuWorking";
+    public static int imageFile5 = R.drawable.compuw;
+    public static String description5 = "Compra y venta de partes y equipo de computación, ";
 
-    public static String titulo6 = "Spa Paltiel";
-    public static int imageFile6 = R.drawable.paltiel;
-    public static String description6 = "Creamos espacios armónicos , qué propician la relajación,directamente en él lugar qué usted o su empresa requiera";
+    public static String titulo6 = "Mendoza Masrter";
+    public static int imageFile6 = R.drawable.mendoza;
+    public static String description6 = "Diseño, fotograbado en metal, prensado, estampado y laminado de metal.";
 
     public static String titulo7 = "City trolley tour";
     public static int imageFile7 = R.drawable.troley;
     public static String description7 = "Disfruta de Cartagena y sus destinos a través de una experiencia única.";
 
-    public static String titulo8 = "item title cartagena 8";
-    public static int imageFile8 = R.drawable.tienda;
-    public static String description8 = "item description cartagena 8";
+    public static String titulo8 = "Hotel Playa Club";
+    public static int imageFile8 = R.drawable.tressesenta;
+    public static String description8 = "Hotelería, creación y ejecución de paquetes turísticos.";
 
-    public static String titulo9 = "item title cartagena 9";
-    public static int imageFile9 = R.drawable.tienda;
-    public static String description9 = "item description cartagena 9";
+    public static String titulo9 = "Camino Tours";
+    public static int imageFile9 = R.drawable.camino;
+    public static String description9 = "Operación se servicios turísticos";
 
     public static String titulo10 = "item title cartagena 10";
     public static int imageFile10 = R.drawable.tienda;
@@ -81,8 +81,8 @@ public class ContentCartagena {
         contentCartagena.add(new CartagenaModel(imageFile5, titulo5, description5));
         contentCartagena.add(new CartagenaModel(imageFile6, titulo6, description6));
         contentCartagena.add(new CartagenaModel(imageFile7, titulo7, description7));
-       // contentCartagena.add(new CartagenaModel(imageFile8, titulo8, description8));
-       // contentCartagena.add(new CartagenaModel(imageFile9, titulo9, description9));
+        contentCartagena.add(new CartagenaModel(imageFile8, titulo8, description8));
+        contentCartagena.add(new CartagenaModel(imageFile9, titulo9, description9));
        // contentCartagena.add(new CartagenaModel(imageFile10, titulo10, description10));
        // contentCartagena.add(new CartagenaModel(imageFile11, titulo11, description11));
        // contentCartagena.add(new CartagenaModel(imageFile12, titulo12, description12));

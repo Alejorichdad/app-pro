@@ -12,9 +12,9 @@ import java.util.List;
 public class ContentBoyaca {
     public static List<BoyacaModel> contentBoyaca =  new ArrayList<>();
 
-    public static String titulo1 = "Hotel Sochagota Paipa";
-    public static int imageFile1 = R.drawable.sochag;
-    public static String description1 = "Ubicado en Paipa frente al Lago Sochagota";
+    public static String titulo1 = "PRÓXIMAS ALIANZAS";
+    public static int imageFile1 = R.drawable.boyaca;
+    public static String description1 = "PRÓXIMAS ALIANZAS";
 
     public static String titulo2 = "Hotel la Posada Colonial";
     public static int imageFile2 = R.drawable.posada;
@@ -74,9 +74,9 @@ public class ContentBoyaca {
 
     public static void addContentBoyaca(){
         contentBoyaca.add(new BoyacaModel(imageFile1, titulo1, description1));
-        contentBoyaca.add(new BoyacaModel(imageFile2, titulo2, description2));
-        contentBoyaca.add(new BoyacaModel(imageFile3, titulo3, description3));
-        contentBoyaca.add(new BoyacaModel(imageFile4, titulo4, description4));
+       //contentBoyaca.add(new BoyacaModel(imageFile2, titulo2, description2));
+       //contentBoyaca.add(new BoyacaModel(imageFile3, titulo3, description3));
+       //contentBoyaca.add(new BoyacaModel(imageFile4, titulo4, description4));
        //contentBoyaca.add(new BoyacaModel(imageFile5, titulo5, description5));
        // contentBoyaca.add(new BoyacaModel(imageFile6, titulo6, description6));
        // contentBoyaca.add(new BoyacaModel(imageFile7, titulo7, description7));

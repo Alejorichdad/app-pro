@@ -29,12 +29,12 @@ public class DetailBoyaca {
 
     /* DATA */
 
-    public static String title1 = "Hotel Sochagota";
-    public static String description1 = "Contacto: beneficio para los afiliados: descuentos especial en pasadía.";
-    public static String phone1 = "3212694313";
-    public static String email1 = "info@hotelsochagota.com";
-    public static int imageFile1 = R.drawable.sochagd;
-    public static String coords1 = "5.762587, -73.110439";
+    public static String title1 = "próximamente";
+    public static String description1 = "";
+    public static String phone1 = "";
+    public static String email1 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile1 = R.drawable.boyaca;
+    public static String coords1 = "5.548201, -73.351163";
 
     public static String title2 = "Hotel la Posada Colonial Paipa";
     public static String description2 = "Contacto: beneficio para los afiliados: 20% descuento para la gente de Recordar.";
@@ -138,21 +138,22 @@ public class DetailBoyaca {
     public static void addObjectsBoyaca(){
         try {
 
-            mainContentBoyaca.put("item1", getFirstItemData());
-            mainContentBoyaca.put("item2", getSecItemData());
-            mainContentBoyaca.put("item3", getThirdItemData());
-            mainContentBoyaca.put("item4", getFourItemData());
-            mainContentBoyaca.put("item5", getFifthItemData());
-            mainContentBoyaca.put("item6", getSixthItemData());
-            mainContentBoyaca.put("item7", getSevenththItemData());
-            mainContentBoyaca.put("item8", getEighthItemData());
-            mainContentBoyaca.put("item9", getNinthItemData());
-            mainContentBoyaca.put("item10", getTenthItemData());
-            mainContentBoyaca.put("item11", getEleventhItemData());
-            mainContentBoyaca.put("item12", getTwelvethItemData());
-            mainContentBoyaca.put("item13", getThirdteenthItemData());
-            mainContentBoyaca.put("item14", getFourteenthItemData());
-            mainContentBoyaca.put("item15", getFifteenthItemData());
+           mainContentBoyaca.put("item1", getFirstItemData());
+         //   mainContentBoyaca.put("item2", getSecItemData());
+         //   mainContentBoyaca.put("item3", getThirdItemData());
+         //   mainContentBoyaca.put("item4", getFourItemData());
+         //   mainContentBoyaca.put("item5", getFifthItemData());
+         //   mainContentBoyaca.put("item6", getSixthItemData());
+         //   mainContentBoyaca.put("item7", getSevenththItemData());
+         //   mainContentBoyaca.put("item8", getEighthItemData());
+         //   mainContentBoyaca.put("item9", getNinthItemData());
+         //   mainContentBoyaca.put("item10", getTenthItemData());
+         //   mainContentBoyaca.put("item11", getEleventhItemData());
+         //   mainContentBoyaca.put("item12", getTwelvethItemData());
+         //   mainContentBoyaca.put("item13", getThirdteenthItemData());
+         //   mainContentBoyaca.put("item14", getFourteenthItemData());
+          mainContentBoyaca.put("item15", getFifteenthItemData());
+
         } catch (JSONException e) {
             e.printStackTrace();
         }

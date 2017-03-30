@@ -26,6 +26,7 @@ public class DetailBarranquilla {
     public static JSONObject contentBarranquilla13 =  new JSONObject();
     public static JSONObject contentBarranquilla14 =  new JSONObject();
     public static JSONObject contentBarranquilla15 =  new JSONObject();
+    public static JSONObject contentBarranquilla16 =  new JSONObject();
 
     /* DATA */
 
@@ -125,29 +126,41 @@ public class DetailBarranquilla {
     public static int imageFile12 = R.drawable.electrod;
     public static String coords12 = "10.985099, -74.794954";
 
-    /*
 
-    public static String title13 = "Alquiler de computadores de oficina";
-    public static String description13 = "Contacto: Ibeth Reales, beneficio para los afiliados: 10% descuento en productos y servicios.";
-    public static String phone13 = " 301 630 9606";
-    public static String email13 = "ventasnovasys@hotmail.com";
-    public static int imageFile13 = R.drawable.novasys;
-    public static String coords13 = "10.996205, -74.801903";
 
-    public static String title14 = "Club Deportivo Instenalco";
-    public static String description14 = "Contacto: Dany Fernández, beneficio para los afiliados: 50% en todas las modalidades deportivas de Club Deportivo Instenalco.";
-    public static String phone14 = "3005062789";
-    public static String email14 = "deportes@pca.edu.co";
-    public static int imageFile14 = R.drawable.instenalcod;
-    public static String coords14 = "#";
+    public static String title13 = "Club Deportivo Instenalco";
+    public static String description13 = "Actividad:\n" + "\nFormación deportiva.\n" + "\nBeneficio:\n" + "\n50% de descuento en matriculas en todas las modalidades deportivas.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nCarrera 62 # 52 - 85 Movil: 300 506 2789\n";
+    public static String phone13 = "300 506 2789";
+    public static String email13 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile13 = R.drawable.instenalcod;
+    public static String coords13 = "10.994805, -74.784947";
 
-    public static String title15 = "Parque del Sol";
-    public static String description15 = "Contacto: Patricia García, beneficio afiliados: 30% descuento en reserva de cancha y descuento especial en las diferentes modalidades deportivas.";
-    public static String phone15 = "3005668936";
-    public static String email15 = "pgarcia@parquedelsol.org";
-    public static int imageFile15 = R.drawable.parquesold;
-    public static String coords15 = "10.987688, -74.811412";
-*/
+    public static String title14 = "Colegio Inca";
+    public static String description14 = "Actividad:\n" + "\nEntidad educativa en la modalidad de educación para el trabajo y el desarrollo humano, diversidad de programas académicos que se complementan a través de prácticas educativas internas y externas que le permitan al estuduante afianzar sus conocimientos y ampliar sus posibilidades laborales.\n" + "\nBeneficio:\n" + "\n\n" +
+            "10% de descuento en matriculas.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.centroinca.com\n" +
+            "Calle 57 Carrera 46 / Movil: 318 711 5556 - 300 784 0034\n";
+    public static String phone14 = "300 784 0034";
+    public static String email14 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile14 = R.drawable.incad;
+    public static String coords14 = "10.990522, -74.793484";
+
+    public static String title15 = "Centro Inca";
+    public static String description15 = "Actividad:\n" + "\nEntidad educativa en la modalidad de educación para el trabajo y el desarrollo humano, diversidad de programas académicos que se complementan a través de prácticas educativas internas y externas que le permitan al estuduante afianzar sus conocimientos y ampliar sus posibilidades laborales.\n" + "\nBeneficio:\n" + "\n17% de descuento en matriculas.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.centroinca.com\n" +
+            "Calle 57 Carrera 46 / Movil: 318 711 5556 - 300 784 0034\n";
+    public static String phone15 = "300 784 0034";
+    public static String email15 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile15 = R.drawable.centroinca;
+    public static String coords15 = "10.990522, -74.793484";
+
+    public static String title16 = "Falab";
+    public static String description16 = "Actividad:\n" + "\nBrindar a todos nuestros clientes servicios confiables en laboratorios clínico, salud ocupacional y medicina general y especializada que impacte en la calidad de vida de los mismos.\n" + "\nBeneficio:\n" + "\n$80.000 Consultas ginecolólica. $80.000 Consulta medico internista. $25.000 Consulta con fonoaudiología. $20.000 Consulta con optometría. $20.000 Electrocardiograma.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.laboratoriosfalab.com\n" +
+            "Carrera 49B # 79 - 99 / Movil: 312 541 1816\n" +
+            "Cari Calle 57 # 23 - 100 / Tel.: (5) 330 9000 Ext.: 5175 / Movil: 312 660 3097 IPS Carrera 47 # 79 - 100 / Movil: 315 748 2972 - 312 660 3085\n";
+    public static String phone16 = "312 660 3085";
+    public static String email16 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile16 = R.drawable.falab;
+    public static String coords16 = "10.999680, -74.812002";
+
 
     public static void addObjectsBarranquilla(){
         try {
@@ -164,12 +177,12 @@ public class DetailBarranquilla {
             mainContentBarranquilla.put("item10", getTenthItemData());
             mainContentBarranquilla.put("item11", getEleventhItemData());
             mainContentBarranquilla.put("item12", getTwelvethItemData());
-          /*
             mainContentBarranquilla.put("item13", getThirdteenthItemData());
             mainContentBarranquilla.put("item14", getFourteenthItemData());
             mainContentBarranquilla.put("item15", getFifteenthItemData());
+            mainContentBarranquilla.put("item16", getSixteenthItemData());
 
-            */
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -324,7 +337,7 @@ public class DetailBarranquilla {
 
         return contentBarranquilla12;
     }
-/*
+
     public static JSONObject getThirdteenthItemData() throws JSONException {
 
         contentBarranquilla13.put("title", title13);
@@ -362,6 +375,20 @@ public class DetailBarranquilla {
 
         }
 
-        */
+    public static JSONObject getSixteenthItemData() throws JSONException {
+
+        contentBarranquilla15.put("title", title16);
+        contentBarranquilla15.put("description", description16);
+        contentBarranquilla15.put("phone", phone16);
+        contentBarranquilla15.put("email", email16);
+        contentBarranquilla15.put("image", imageFile16);
+        contentBarranquilla15.put("coords", coords16);
+
+        return contentBarranquilla15;
+
+    }
+
+
+
 
 }

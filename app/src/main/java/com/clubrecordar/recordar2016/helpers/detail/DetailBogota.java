@@ -112,8 +112,7 @@ public class DetailBogota {
 
     public static String title9 = "Mindset";
     public static String description9 = "Actividad:\n" + "\nBranding y Comunicación\n" + "\nBeneficio:\n" + "\nDescuento del 10% sobre la lista de precios de los servicios de creatividad y diseño gráfico descritos en el tarifario adjunto\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.mindsetgroup.co\n" +
-            "Cra. 9 No. 53-58 Of. 708 Chapinero / Movil 317-4287724 Fijo 3573502 Javier Puentes - Director Ejecutivo / javier.p@mindsetgroup.co\n" +
-            "Lily Tovar / Tel. No. (5) 317 7924 - 301 790 9434 lilitb@hotmail.es";
+            "Cra. 9 No. 53-58 Of. 708 Chapinero / Movil 317-4287724 Fijo 3573502 Javier Puentes - Director Ejecutivo / javier.p@mindsetgroup.co\n";
     public static String phone9 = "3174287724";
     public static String email9 = "javier.p@mindsetgroup.co";
     public static int imageFile9 = R.drawable.minset;

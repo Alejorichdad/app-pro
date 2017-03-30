@@ -20,6 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".AlianzasNacionales"
             android:label="@string/title_activity_alianzas_nacionales"
@@ -30,8 +32,9 @@
                 android:value="com.clubrecordar.recordar2016.MainActivity" />
         </activity>
         <activity android:name=".CourseActivity" />
-        <activity android:name=".StoreActivity" />
         <activity android:name=".EventsActivity" />
+        <activity android:name=".StoreActivity" />
+
         <activity
             android:name=".cities.NationalAlianceActivity"
             android:parentActivityName=".MainActivity"
@@ -136,6 +139,8 @@
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.barranquilla.BarranquillaDetFifteenthActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.barranquilla.BarranquillaDetSixteenthActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.bogota.BogotaDetSecActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.bogota.BogotaDetThirdActivity"
@@ -237,6 +242,12 @@
         <activity android:name=".detailsItem.cali.CaliDetFourteenthActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.cali.CaliDetFifteenthActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.cali.CaliDetSixteenthActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.cali.CaliDetSeventeenthActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.cali.CaliDetEighteenthActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.cartagena.CartagenaDetSecActivity"
             android:screenOrientation="portrait" />

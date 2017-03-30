@@ -74,7 +74,7 @@ public class CaliDetailAdapter extends RecyclerView.Adapter<CaliDetailAdapter.Ca
         public void onClick(View v) {
             //Toast.makeText(v.getContext(),"CLIKC",Toast.LENGTH_SHORT).show();
 
-            switch (getLayoutPosition()){
+            switch (getLayoutPosition()) {
                 case 0:
                     try {
                         title = (String) DetailCali.getDetailCali().getJSONObject("item1").get("title");

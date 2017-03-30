@@ -28,12 +28,15 @@ public class DetailPasto {
 
     /* DATA */
 
-    public static String title1 = "Clinilaser";
-    public static String description1 = "Contacto: Robert Martinez, beneficio para los afiliados: 15% descuento.";
-    public static String phone1 = "3153028063";
-    public static String email1 = "alianzas@clubrecordar.com";
-    public static int imageFile1 = R.drawable.pasto1;
-    public static String coords1 = "1.217558, -77.289074";
+    public static String title1 = "C.E.R.O";
+    public static String description1 = "Actividad:\n" + "\nValoración por especialistas en: cirugía oral y maxilofacial, periodoncia y rehabilitación oral.\n" +
+            "Tratamientos especializados en: operatoria y estética, rehabilitación oral, cirugía\n" +
+            "oral, periodoncia, implantologia oral, ortodoncia y ortopedia maxilar.\n" + "\nBeneficio:\n" + "\nDescuento del 20% en procedimientos odontológicos - Valoración sin costo\n" + "\nCondiciones y Restricciones:\n" + "\nTarjeta Club Recordar - Presencial al momento de pago y/o solicitar algún servicio\n" + "\nContacto:\n" + "Deisy Milena Bastidas Cumbal / e-mail: bastidasdeisy@gmail.com\n";
+
+    public static String phone1 = "300 489 6253";
+    public static String email1 = "bastidasdeisy@gmail.com";
+    public static int imageFile1 = R.drawable.cero;
+    public static String coords1 = "#";
 
     public static String title2 = "Centro Médico la Riviera";
     public static String description2 = "Beneficio para los afiliados: descuento entre 15% al 50% según especialidad.";

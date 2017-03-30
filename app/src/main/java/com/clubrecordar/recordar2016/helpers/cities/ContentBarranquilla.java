@@ -61,19 +61,24 @@ public class ContentBarranquilla {
     public static int imageFile12 = R.drawable.electro1;
     public static String description12 = "Repuestos para automotores";
 
-    /*
-    public static String titulo13 = "Novasys de Colombia"; 
-    public static int imageFile13 = R.drawable.novasys;
-    public static String description13 = "Alquiler de computadores de oficina";
 
-    public static String titulo14 = "Club Deportivo Instenalco";
-    public static int imageFile14 = R.drawable.instenalco;
-    public static String description14 = "Somos Parte de Tú Desarrollo ";
+    public static String titulo13 = "Club Deportivo Instenalco";
+    public static int imageFile13 = R.drawable.instenalco;
+    public static String description13 = "Formación deportiva";
 
-    public static String titulo15 = "Parque del Sol";
-    public static int imageFile15 = R.drawable.parquesol;
-    public static String description15 = "Contamos con zonas de esparcimiento familiar";
-    */
+    public static String titulo14 = "Colegio Inca";
+    public static int imageFile14 = R.drawable.incad;
+    public static String description14 = "Entidad educativa ";
+
+    public static String titulo15 = "Centro Inca";
+    public static int imageFile15 = R.drawable.centroinca;
+    public static String description15 = "Educación para el trabajo y el desarrollo humano,";
+
+    public static String titulo16 = "Falab";
+    public static int imageFile16 = R.drawable.falab;
+    public static String description16 = "Grupo integral de salud,";
+
+
 
 
 
@@ -90,10 +95,11 @@ public class ContentBarranquilla {
         contentBarranquilla.add(new BarranquillaModel(imageFile10, titulo10, description10));
         contentBarranquilla.add(new BarranquillaModel(imageFile11, titulo11, description11));
         contentBarranquilla.add(new BarranquillaModel(imageFile12, titulo12, description12));
-       /* contentBarranquilla.add(new BarranquillaModel(imageFile13, titulo13, description13));
+        contentBarranquilla.add(new BarranquillaModel(imageFile13, titulo13, description13));
         contentBarranquilla.add(new BarranquillaModel(imageFile14, titulo14, description14));
         contentBarranquilla.add(new BarranquillaModel(imageFile15, titulo15, description15));
-        */
+        contentBarranquilla.add(new BarranquillaModel(imageFile16, titulo16, description16));
+
     }
 
     public static List<BarranquillaModel> getContentBarranquilla(){

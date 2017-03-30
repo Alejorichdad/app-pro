@@ -21,6 +21,7 @@ import com.clubrecordar.recordar2016.detailsItem.barranquilla.BarranquillaDetFou
 import com.clubrecordar.recordar2016.detailsItem.barranquilla.BarranquillaDetNinthActivity;
 import com.clubrecordar.recordar2016.detailsItem.barranquilla.BarranquillaDetSecActivity;
 import com.clubrecordar.recordar2016.detailsItem.barranquilla.BarranquillaDetSeventhActivity;
+import com.clubrecordar.recordar2016.detailsItem.barranquilla.BarranquillaDetSixteenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.barranquilla.BarranquillaDetSixthActivity;
 import com.clubrecordar.recordar2016.detailsItem.barranquilla.BarranquillaDetTenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.barranquilla.BarranquillaDetThirdActivity;
@@ -404,6 +405,28 @@ public class BarranquillaDetailAdapter extends RecyclerView.Adapter<Barranquilla
                     }
                     //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
                     intent = new Intent(context, BarranquillaDetFifteenthActivity.class);
+                    intent.putExtra("title", title);
+                    intent.putExtra("description", description);
+                    intent.putExtra("phone", phone);
+                    intent.putExtra("email", email);
+                    intent.putExtra("coords", coords);
+                    intent.putExtra("image", image);
+                    context.startActivity(intent);
+                    break;
+                case 15:
+                    try {
+                        title = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item16").get("title");
+                        description = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item16").get("description");
+                        phone = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item16").get("phone");
+                        email = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item16").get("email");
+                        coords = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item16").get("coords");
+                        image = (int) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item16").get("image");
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
+                    intent = new Intent(context, BarranquillaDetSixteenthActivity.class);
                     intent.putExtra("title", title);
                     intent.putExtra("description", description);
                     intent.putExtra("phone", phone);

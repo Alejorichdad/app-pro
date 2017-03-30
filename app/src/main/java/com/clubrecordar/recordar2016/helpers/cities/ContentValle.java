@@ -12,33 +12,35 @@ import java.util.List;
 public class ContentValle {
     public static List<ValleModel> contentValle =  new ArrayList<>();
 
+
+
     public static String titulo1 = "Corporacion Eloisa Tamayo";
     public static int imageFile1 = R.drawable.eliosa;
     public static String description1 = "Institución de Educación Para El Trabajo y El desarrollo Humano";
 
-    public static String titulo2 = "Sonricentro";
+    public static String titulo2 = "Pineda Junior";
     public static int imageFile2 = R.drawable.sonricentro;
-    public static String description2 = "Clínica odontológica";
+    public static String description2 = "Es una empresa que cuenta con un staff de entrenadores licenciados en educación física";
 
-    public static String titulo3 = "Odonto INT";
-    public static int imageFile3 = R.drawable.odontoint;
-    public static String description3 = "Odontología Integral";
+    public static String titulo3 = " Rapi Chiken";
+    public static int imageFile3 = R.drawable.rappi;
+    public static String description3 = "Se especializa en la preparación de alimentos dese hace 10 años";
 
     public static String titulo4 = "Spa Diana Ardila";
     public static int imageFile4 = R.drawable.dianaradila;
     public static String description4 = "Armonía para tu vida";
 
-    public static String titulo5 = "Pineda Junior";
-    public static int imageFile5 = R.drawable.pineda;
-    public static String description5 = "Escuela deportiva";
+    public static String titulo5 = "Hotel Sicarare";
+    public static int imageFile5 = R.drawable.sicarare;
+    public static String description5 = "El Hotel de los grandes eventos en valledupar";
 
-    public static String titulo6 = "Hotel Sicarare";
-    public static int imageFile6 = R.drawable.sicarare;
-    public static String description6 = "El Hotel de los grandes eventos en valledupar";
+    public static String titulo6 = "diagnosticentro";
+    public static int imageFile6 = R.drawable.diagno;
+    public static String description6 = "Empresa lider con 25 años de experiencia en repuestos y mantenimiento mecánico de vehículos";
 
-    public static String titulo7 = "Optica Precisa";
-    public static int imageFile7 = R.drawable.optica;
-    public static String description7 = "El cuidado de tus ojos";
+    public static String titulo7 = "Hotel el Bosque";
+    public static int imageFile7 = R.drawable.bosque;
+    public static String description7 = "Empresa dedicada a el turismo, hospedaje, alimentacion y recrecion.";
 
     public static String titulo8 = "item title valle 8";
     public static int imageFile8 = R.drawable.tienda;
@@ -80,9 +82,9 @@ public class ContentValle {
         contentValle.add(new ValleModel(imageFile5, titulo5, description5));
         contentValle.add(new ValleModel(imageFile6, titulo6, description6));
         contentValle.add(new ValleModel(imageFile7, titulo7, description7));
-      //  contentValle.add(new ValleModel(imageFile8, titulo8, description8));
-      //  contentValle.add(new ValleModel(imageFile9, titulo9, description9));
-      //  contentValle.add(new ValleModel(imageFile10, titulo10, description10));
+        contentValle.add(new ValleModel(imageFile8, titulo8, description8));
+        contentValle.add(new ValleModel(imageFile9, titulo9, description9));
+        contentValle.add(new ValleModel(imageFile10, titulo10, description10));
       //  contentValle.add(new ValleModel(imageFile11, titulo11, description11));
       //  contentValle.add(new ValleModel(imageFile12, titulo12, description12));
       //  contentValle.add(new ValleModel(imageFile13, titulo13, description13));

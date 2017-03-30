@@ -29,67 +29,79 @@ public class DetailValle {
     /* DATA */
 
     public static String title1 = "Corporacion Eloisa Tamayo";
-    public static String description1 = "Contacto: Eloisa Tamayo, beneficio afiliados: descuento especial en el programa de metodología y estética integral.";
-    public static String phone1 = "0355803995";
+    public static String description1 = "Actividad:\n" + "\nEntidad privada dedicada a la prestación del servicio de capacitación y de formación del recurso humano idóneo en conocimientos y destrezas, para atender las demandas que presentan las diferentes empresas comerciales y entidades de Salud.\n" + "\nBeneficio:\n" + "\n20% de descuento en elprograma de cosmetología y estética integral jornada tarde y de descuento 15% jornada mañana y sábados.\n" +
+            "15% de descuento en elprograma de peluquería y administrativos.\n" + "\nCondiciones y Restricciones:\n" + "\nTarjeta Club Recordar - Presencial al momento de pago y/o solicitar algún servicio\n" + "\nContacto:\n" + "\nwww.eloisatamayo.com\n" +
+            "Tel. (5) 589 7984 / Movil 301 336 1391 Eloisa Tamayo\n";
+
+    public static String phone1 = "301 336 1391";
     public static String email1 = "talentohumano@eloisatamayo.com";
     public static int imageFile1 = R.drawable.eliosad;
     public static String coords1 = "10.473556, -73.253620";
 
-    public static String title2 = "Sonricentro";
-    public static String description2 = "Contacto: Manuel Enrique Maya, beneficio para los afiliados: bonos para empresarios con una profilaxis gratis.";
-    public static String phone2 = "3106391775";
-    public static String email2 = "sonricentro@gmail.com";
-    public static int imageFile2 = R.drawable.sonricentrod;
-    public static String coords2 = "10.475043, -73.254549";
+    public static String title2 = "Pineda Junior";
+    public static String description2 = "Actividad:\n" + "\nEs una empresa que cuenta con un staff de entrenadores licenciados en educación física, altamente capacitados, llevamos aproximadamente 20 años impartiendo formación en el campo deportivo a los niños vallenatos.\n" + "\nBeneficio:\n" + "\n10% de descuento en todas las disciplinas.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n\n" + "\nContacto:\n" + "\nTel. (5) 584 1043 pinedajuniors@hotmail.com\n";
+    public static String phone2 = "035 584 1043";
+    public static String email2 = "pinedajuniors@hotmail.com";
+    public static int imageFile2 = R.drawable.pinedad;
+    public static String coords2 = "10.479307, -73.252256";
 
-    public static String title3 = "Odonto INT";
-    public static String description3 = "Contacto: Ximena Brito, beneficio para los afiliados: 18% descuento en todos sus servicios.";
-    public static String phone3 = "3156522978";
-    public static String email3 = "odontoint@yahoo.es";
-    public static int imageFile3 = R.drawable.odontointd;
-    public static String coords3 = "10.471116, -73.253395";
+    public static String title3 = "Rapi Chiken";
+    public static String description3 = "Actividad:\n" + "\nSe especializa en la preparacion de alimentos dese hace 10 años en valledupar.\n" + "\nBeneficio:\n" + "\n50% de descuento en la bebida para cada Producto.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nMovil: (5) 583 4064 - 572 0300 juliethperaza19@hotmail.com\n";
+    public static String phone3 = "035 583 4064";
+    public static String email3 = "juliethperaza19@hotmail.com";
+    public static int imageFile3 = R.drawable.rappi;
+    public static String coords3 = "10.477170, -73.248172";
 
     public static String title4 = "Spa Diana Ardila";
-    public static String description4 = "Contacto: Diana Ardila, beneficio para los afiliados: 30% de descuento en todos sus servicios.";
-    public static String phone4 = "3108712376";
+    public static String description4 = "Actividad:\n" + "\nEs una empresa dedicada a la estética de la mujer con productos no invasivos y una experiencia en el mercado por mas de 26 años.\n" + "\nBeneficio:\n" + "\n30% de descuento en todos los servicios.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nCalle 9 # 14A - 08 San Joaquin / Movil 321 501 0658 - 310 871 2376 / Tel. (5) 573 3132 Diana Ardila / e-mail: adianae@hotmail.com\n";
+    public static String phone4 = "310 871 2376";
     public static String email4 = "adianae@hotmail.com";
     public static int imageFile4 = R.drawable.dianaradilad;
     public static String coords4 = "10.481358, -73.258187";
 
-    public static String title5 = "Pineda Junior";
-    public static String description5 = "Contacto: Regulo Pineda, beneficio para los afiliados: 10% descuento en todos su cursos.";
-    public static String phone5 = "0355841043";
-    public static String email5 = "pinedajuniors@hotmail.com";
-    public static int imageFile5 = R.drawable.pinedad;
-    public static String coords5 = "10.479307, -73.252256";
+    public static String title5 = "Hotel Sicarare";
+    public static String description5 = "Actividad:\n" + "\nEs un empresa dedicada a ofrecer servicios turisticos y corporativos. Categoria cuatro estrellas y certificacion de calidad ISO 9001.\n" + "\nBeneficio:\n" + "\n10% de descuento en alojamiento y 5% de descuento en restaurante.\n" + "\nCondiciones y Restricciones:\n" + "\nTarjeta Club Recordar - Presencial al momento de pago y/o solicitar algún servicio.\n" + "\nContacto:\n" + "\nwww.hotelsicarare.com.co\n" +
+            "Cra. 9 # 16-4 / Movil 320 532 8010\n" +
+            "Tulia Calvo - Gerente / e-mail: tcalvo@solarhoteles.com\n";
+    public static String phone5 = "320 532 8010";
+    public static String email5 = "tcalvo@solarhoteles.com";
+    public static int imageFile5 = R.drawable.sicarared;
+    public static String coords5 = "10.475070, -73.247008";
 
-    public static String title6 = "Hotel Sicarare";
-    public static String description6 = "Contacto: Tulia Sofia Martinez, beneficio para los afiliados: 15% descuento en todos sus servicios.";
-    public static String phone6 = "3205328010";
-    public static String email6 = "marca@solarhoteles.com";
-    public static int imageFile6 = R.drawable.sicarared;
-    public static String coords6 = "10.475070, -73.247008";
 
-    public static String title7 = "Hotel Sicarare";
-    public static String description7 = "Contacto: Luz Helen Lario, Tarifas especiales en monturas y lentes, valoración sin costo";
-    public static String phone7 = " 0355742717";
-    public static String email7 = "opticaprecisa@hotmail.com";
-    public static int imageFile7 = R.drawable.opticad;
+
+    public static String title6 = "Diagnosticentro";
+    public static String description6 = "Actividad:\n" + "\nEmpresa lider con 25 años de experiencia en repuestos y mantenimiento mecánico de vehículos, cubrimiento de servicio y repuestos en el Cesar, la Guajira y sus alrededores.\n" + "\nBeneficio:\n" + "\n10% de descuento en todos los servicios.\n" + "\nCondiciones y Restricciones:\n" + "\nTarjeta Club Recordar - Presencial al momento de pago y/o solicitar algún servicio.\n" + "\nContacto:\n" + "\ndiagnosticentroamistad.amawebs.com Cll 21 # 6B - 43 / Tel. (5) 560 6027 diagnoamista@yahoo.es\n";
+    public static String phone6 = "035 560 6027";
+    public static String email6 = "diagnoamista@yahoo.es";
+    public static int imageFile6 = R.drawable.diagno;
+    public static String coords6 = "10.464402, -73.241923";
+
+    public static String title7 = "Hotel el Bosque";
+    public static String description7 = "Actividad:\n" + "\nEmpresa dedicada a el turismo, hospedaje, alimentacion y recrecion.\n" + "\nBeneficio:\n" + "\n20% de descuento en la lista de precio de prodcutos, pasadias, hospedaje, salon de evetos y restaurantes.\n" + "\nCondiciones y Restricciones:\n" + "\nTarjeta Club Recordar - Presencial al momento de pago y/o solicitar algún servicio\n" + "\nContacto:\n" + "\nMagalis Daza / Movil 310 822 5642\n" +
+            "E-mail: elbosquehotelcasacampo@outlook.com\n";
+    public static String phone7 = "310 822 5642";
+    public static String email7 = "elbosquehotelcasacampo@outlook.com";
+    public static int imageFile7 = R.drawable.bosque;
     public static String coords7 = "10.474940, -73.246925";
 
-    public static String title8 = "titulo8";
-    public static String description8 = "description8";
-    public static String phone8 = "844567";
-    public static String email8 = "some@gmail.com";
-    public static int imageFile8 = R.drawable.tienda;
-    public static String coords8 = "37.7749,-122.4194";
+    public static String title8 = "Odontes";
+    public static String description8 = "Actividad:\n" + "\nEs una empresa dedicada a la prestación de servicios de odontología en general y todas las especialidades.\n" + "\nBeneficio:\n" + "\n50%de descuento para fases higiénicas (remoción de cálculo y placa bacteriana con ultrasonido, no incluye procedimientos de curetaje método abierto para remoción de cálculos).\n" +
+            "Servicio de consulta general y especializada (Ortodoncia, endodoncia, periodoncia, implantes, estética dental y educación de higiene oral) sin costo.\n" + "30% de descuento para las resinas de foto curado, carillas estéticas, coronas de porcelana, núcleos o postes en oro y fibra de vidrio, porcelanas, exodoncias método abierto y cerrado.\n" + "20% de descuento para los tratamientos de ortodoncia convencional, ortodoncia estética y técnica de autoligado, aparatología de ortopedia.\n" +
+             "\nCondiciones y Restricciones:\n" + "\nTarjeta Club Recordar - Presencial al momento de pago y/o solicitar algún servicio La viabilidad del tratamiento esta sujeta a sus condiciones actuales de salud.\n" + "\nContacto:\n" + "\nE-mail: gerencia@odontes.com.co /\n" +
+            "Movil 300 285 3046\n";
 
-    public static String title9 = "titulo9";
-    public static String description9 = "description9";
-    public static String phone9 = "944567";
-    public static String email9 = "some@gmail.com";
-    public static int imageFile9 = R.drawable.tienda;
-    public static String coords9 = "37.7749,-122.4194";
+    public static String phone8 = "300 285 3046";
+    public static String email8 = "gerencia@odontes.com.co ";
+    public static int imageFile8 = R.drawable.odontes;
+    public static String coords8 = "10.470421, -73.254586";
+
+    public static String title9 = "Rosalba Pulgarin";
+    public static String description9 = "Actividad:\n" + "\nConsulta externa en Dermatología, Cirugía Dermatológica en consulta externa estan capacitados para resolver problemas dermatológicos como: infecciones cutáneas, alergias dermatológicas, enfermedades pigmentarias, problemas del cabello y uñas, infecciones tropicales como lepra sarcoidosis leishmaniasis.\n" + "\nBeneficio:\n" + "\n20% y 40% de descuento en la lista de precios, ademas un descuento especial en la tienda de dermatologia DROGUERIA TERSAPIEL.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nRosalba Pulgarin / Tel. (5) 574 2533 centrodermatologiaycosmiatria@hotmail.com\n";
+    public static String phone9 = "035 574 2533";
+    public static String email9 = "centrodermatologiaycosmiatria@hotmail.com";
+    public static int imageFile9 = R.drawable.pulgarin;
+    public static String coords9 = "10.475365, -73.254009";
 
     public static String title10 = "titulo10";
     public static String description10 = "description10";
