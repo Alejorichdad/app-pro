@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by alejandro on 30/7/16.
+ * Created by alejorichdad on 30/7/16.
  */
 public class ContentBarranquilla {
 
@@ -78,6 +78,10 @@ public class ContentBarranquilla {
     public static int imageFile16 = R.drawable.falab;
     public static String description16 = "Grupo integral de salud";
 
+    public static String titulo17 = "Lam";
+    public static int imagenFile17 = R.drawable.lam;
+    public static String description17 = "Mejoramiento de la fuerza de ventas";
+
 
 
 
@@ -99,6 +103,7 @@ public class ContentBarranquilla {
         contentBarranquilla.add(new BarranquillaModel(imageFile14, titulo14, description14));
         contentBarranquilla.add(new BarranquillaModel(imageFile15, titulo15, description15));
         contentBarranquilla.add(new BarranquillaModel(imageFile16, titulo16, description16));
+        contentBarranquilla.add(new BarranquillaModel(imagenFile17,titulo17, description17));
 
     }
 

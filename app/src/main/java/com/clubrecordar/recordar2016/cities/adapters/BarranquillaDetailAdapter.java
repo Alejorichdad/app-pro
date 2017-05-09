@@ -435,6 +435,28 @@ public class BarranquillaDetailAdapter extends RecyclerView.Adapter<Barranquilla
                     intent.putExtra("image", image);
                     context.startActivity(intent);
                     break;
+                case 16:
+                    try {
+                        title = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item17").get("title");
+                        description = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item17").get("description");
+                        phone = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item17").get("phone");
+                        email = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item17").get("email");
+                        coords = (String) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item17").get("coords");
+                        image = (int) DetailBarranquilla.getDetailBarranquilla().getJSONObject("item17").get("image");
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
+                    intent = new Intent(context, BarranquillaDetSixteenthActivity.class);
+                    intent.putExtra("title", title);
+                    intent.putExtra("description", description);
+                    intent.putExtra("phone", phone);
+                    intent.putExtra("email", email);
+                    intent.putExtra("coords", coords);
+                    intent.putExtra("image", image);
+                    context.startActivity(intent);
+                    break;
 
             }
         }

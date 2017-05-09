@@ -6,7 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by Alejandro on 31/7/16.
+ * Created by alejorichdad on 31/7/16.
  */
 public class DetailBarranquilla {
 
@@ -27,6 +27,7 @@ public class DetailBarranquilla {
     public static JSONObject contentBarranquilla14 =  new JSONObject();
     public static JSONObject contentBarranquilla15 =  new JSONObject();
     public static JSONObject contentBarranquilla16 =  new JSONObject();
+    public static JSONObject contentBarranquilla17 = new JSONObject();
 
     /* DATA */
 
@@ -161,6 +162,15 @@ public class DetailBarranquilla {
     public static int imageFile16 = R.drawable.falab;
     public static String coords16 = "10.999680, -74.812002";
 
+    public static String title17 = "lam";
+    public static String description17 = "Actividad:\n" + "\nBrindar a todos nuestros clientes servicios confiables en laboratorios clínico, salud ocupacional y medicina general y especializada que impacte en la calidad de vida de los mismos.\n" + "\nBeneficio:\n" + "\n$80.000 Consultas ginecolólica. $80.000 Consulta medico internista. $25.000 Consulta con fonoaudiología. $20.000 Consulta con optometría. $20.000 Electrocardiograma.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.laboratoriosfalab.com\n" +
+            "Carrera 49B # 79 - 99 / Movil: 312 541 1816\n" +
+            "Cari Calle 57 # 23 - 100 / Tel.: (5) 330 9000 Ext.: 5175 / Movil: 312 660 3097 IPS Carrera 47 # 79 - 100 / Movil: 315 748 2972 - 312 660 3085\n";
+    public static String phone17 = "312 660 3085";
+    public static String email17 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile17 = R.drawable.lam;
+    public static String coords17 = "10.999680, -74.812002";
+
 
     public static void addObjectsBarranquilla(){
         try {
@@ -181,6 +191,7 @@ public class DetailBarranquilla {
             mainContentBarranquilla.put("item14", getFourteenthItemData());
             mainContentBarranquilla.put("item15", getFifteenthItemData());
             mainContentBarranquilla.put("item16", getSixteenthItemData());
+            mainContentBarranquilla.put("item17", getSeventeenthItemData());
 
 
         } catch (JSONException e) {
@@ -385,6 +396,19 @@ public class DetailBarranquilla {
         contentBarranquilla16.put("coords", coords16);
 
         return contentBarranquilla16;
+
+    }
+
+    public static JSONObject getSeventeenthItemData() throws JSONException {
+
+        contentBarranquilla17.put("title", title17);
+        contentBarranquilla17.put("description", description17);
+        contentBarranquilla17.put("phone", phone17);
+        contentBarranquilla17.put("email", email17);
+        contentBarranquilla17.put("image", imageFile17);
+        contentBarranquilla17.put("coords", coords17);
+
+        return contentBarranquilla17;
 
     }
 
