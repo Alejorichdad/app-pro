@@ -31,7 +31,7 @@ public class DetailCartagena {
     public static String title1 = "Cararin";
     public static String description1 = "Actividad:\n" + "\nClub deportivo de beisbol.\n" + "\nBeneficio:\n" + "50% de descuento en el pago de inscripción. 50% de descuentoto en la mensualidad.\n" + "\nCondiciones y Restricciones:\n" + "\nSe debe presentar el documento de identificación para aplicar al descuento de cumpleaños.\n" + "\nContacto:\n" + "Carlos Ramirez Rincón / Movil: 317 860 7367 - 310 400 7427\n";
 
-    public static String phone1 = "317 860 7367";
+    public static String phone1 = "3178607367";
     public static String email1 = "alejandro.clubrecordar@gmail.com";
     public static int imageFile1 = R.drawable.cararin;
     public static String coords1 = "#";

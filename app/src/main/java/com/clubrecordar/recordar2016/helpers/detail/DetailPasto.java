@@ -40,7 +40,7 @@ public class DetailPasto {
 
     public static String title2 = "Centro Médico la Riviera";
     public static String description2 = "Beneficio para los afiliados: descuento entre 15% al 50% según especialidad.";
-    public static String phone2 = "0327310228";
+    public static String phone2 = "316 4479982 ";
     public static String email2 = "centromedicolariviera@hotmail.com";
     public static int imageFile2 = R.drawable.rivierad;
     public static String coords2 = "1.226303, -77.281927";

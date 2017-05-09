@@ -74,11 +74,11 @@ public class ContentPasto {
 
     public static void addContentPasto(){
         contentPasto.add(new PastoModel(imageFile1, titulo1, description1));
-        //contentPasto.add(new PastoModel(imageFile2, titulo2, description2));
-        //contentPasto.add(new PastoModel(imageFile3, titulo3, description3));
+        contentPasto.add(new PastoModel(imageFile2, titulo2, description2));
+        contentPasto.add(new PastoModel(imageFile3, titulo3, description3));
         //contentPasto.add(new PastoModel(imageFile4, titulo4, description4));
-       // contentPasto.add(new PastoModel(imageFile5, titulo5, description5));
-       // contentPasto.add(new PastoModel(imageFile6, titulo6, description6));
+        contentPasto.add(new PastoModel(imageFile5, titulo5, description5));
+        contentPasto.add(new PastoModel(imageFile6, titulo6, description6));
         //contentPasto.add(new PastoModel(imageFile7, titulo7, description7));
        // contentPasto.add(new PastoModel(imageFile8, titulo8, description8));
        // contentPasto.add(new PastoModel(imageFile9, titulo9, description9));

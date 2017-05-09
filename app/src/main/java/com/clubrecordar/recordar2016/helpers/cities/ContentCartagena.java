@@ -15,7 +15,7 @@ public class ContentCartagena {
 
     public static String titulo1 = "Cararin";
     public static int imageFile1 = R.drawable.cararin;
-    public static String description1 = "lub deportivo de beisbol.. ";
+    public static String description1 = "Club deportivo de beisbol";
 
     public static String titulo2 = "Icosald";
     public static int imageFile2 = R.drawable.ics;

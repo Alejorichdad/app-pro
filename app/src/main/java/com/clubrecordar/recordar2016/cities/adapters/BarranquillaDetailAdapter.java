@@ -35,7 +35,7 @@ import org.json.JSONException;
 import java.util.List;
 
 /**
- * Created by willians on 22/7/16.
+ * Created by alejandro on 22/7/16.
  */
 public class BarranquillaDetailAdapter extends RecyclerView.Adapter<BarranquillaDetailAdapter.BarranquillaDetailViewHolder> {
     private List<BarranquillaModel> items;

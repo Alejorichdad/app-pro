@@ -18,7 +18,7 @@ public class ContentCali {
 
     public static String titulo2 = "Giant´s gym";
     public static int imageFile2 = R.drawable.gian;
-    public static String description2 = "La naturaleza de tu piel";
+    public static String description2 = "Acondicionamiento físico";
 
     public static String titulo3 = "Estrellas Del Norte";
     public static int imageFile3 = R.drawable.estrellas;
@@ -50,7 +50,7 @@ public class ContentCali {
 
     public static String titulo10 = "Ortho Oral";
     public static int imageFile10 = R.drawable.ortho;
-    public static String description10 = "Institución integral en servicios odontológicos, ";
+    public static String description10 = "Institución integral en servicios odontológicos.";
 
     public static String titulo11 = "Boca Nostra";
     public static int imageFile11 = R.drawable.boca;

@@ -15,7 +15,7 @@ public class ContentNational {
 
     public static String titulo1 = "Cad Conocimiento";
     public static int imageFile1 = R.drawable.cad;
-    public static String description1 = "Tu mascota lo merece";
+    public static String description1 = "Desarrollo Integral ";
 
     public static String titulo2 = "Alfa 21";
     public static int imageFile2 = R.drawable.alfa;

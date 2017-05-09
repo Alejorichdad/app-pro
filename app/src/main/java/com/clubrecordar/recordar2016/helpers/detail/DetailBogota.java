@@ -96,6 +96,7 @@ public class DetailBogota {
             "\nContacto:\n" + "\nCll 71 No. 11-07 Chapinero / Movil 317 428 7724 / Tel. 755 9272\n" +
             "Javier Puentes - Director de mercadeo / e-mail: bienvenidos@sinvisabogota.com\n";
 
+
     public static String phone7 = "317 428 7724";
     public static String email7 = "bienvenidos@sinvisabogota.com";
     public static int imageFile7 = R.drawable.sinvisa;

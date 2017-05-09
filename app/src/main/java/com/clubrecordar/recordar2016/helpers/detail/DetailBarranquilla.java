@@ -6,7 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by willians on 31/7/16.
+ * Created by Alejandro on 31/7/16.
  */
 public class DetailBarranquilla {
 
@@ -69,7 +69,7 @@ public class DetailBarranquilla {
     public static String coords5 = "10.996069, -74.801846";
 
     public static String title6 = "Novasys";
-    public static String description6 ="Actividad:\n" + "\nVenta computadores portatiles y de mesa, articulos publicitarios tampografía, videoproyectores, accesorios, medios informativos, renting corporativo de equipos informativos, servicio de mantenimiento de equipos.\n" + "\nBeneficio:\n" + "\n10% de descuento en computadores clones completos (cpu + pantalla + teclado + mouse)\n" +
+    public static String description6 = "Actividad:\n" + "\nVenta computadores portatiles y de mesa, articulos publicitarios tampografía, videoproyectores, accesorios, medios informativos, renting corporativo de equipos informativos, servicio de mantenimiento de equipos.\n" + "\nBeneficio:\n" + "\n10% de descuento en computadores clones completos (cpu + pantalla + teclado + mouse)\n" +
             "10% en videoproyectores y 30% en servicios de mantenimiento.\n" + "\nCondiciones y Restricciones:\n" + "\nTarjeta Club Recordar - Presencial al momento de pago y/o solicitar algún servicio\n\n" + "\nContacto:\n" + "\nwww.novasys.com.co\n" +
             "Calle 70 No. 50-31 / PBX (5) 317 7774 - 317 7564 Ibeth Reales\n";
     public static String phone6 = "035 317 7774";
@@ -121,7 +121,7 @@ public class DetailBarranquilla {
     public static String title12 = "Electro Aceite";
     public static String description12 = "Actividad:\n" + "\nCambio de Aceite, Filtros, Sincronizacion, Revision partes electricas, Baterias; Repuestos en general; Servicios Mecanicos, Electricos; Mecanica en general (gasolina, gas y disel).\n" + "\nBeneficio:\n" + "\n20% de descuento en cambio de aceites y 10% en lo que atencion mecanica se refiere.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nCalle57No41B-72\n" +
             "Franky Linero / Tel. (5) 385 4578 - 3854579 / Movil: 301 264 5844 Frankylinero18@hotmail.com\n";
-    public static String phone12 = " 3012645844,";
+    public static String phone12 = " 3012645844";
     public static String email12 = "Frankylinero18@hotmail.com";
     public static int imageFile12 = R.drawable.electrod;
     public static String coords12 = "10.985099, -74.794954";
@@ -377,14 +377,14 @@ public class DetailBarranquilla {
 
     public static JSONObject getSixteenthItemData() throws JSONException {
 
-        contentBarranquilla15.put("title", title16);
-        contentBarranquilla15.put("description", description16);
-        contentBarranquilla15.put("phone", phone16);
-        contentBarranquilla15.put("email", email16);
-        contentBarranquilla15.put("image", imageFile16);
-        contentBarranquilla15.put("coords", coords16);
+        contentBarranquilla16.put("title", title16);
+        contentBarranquilla16.put("description", description16);
+        contentBarranquilla16.put("phone", phone16);
+        contentBarranquilla16.put("email", email16);
+        contentBarranquilla16.put("image", imageFile16);
+        contentBarranquilla16.put("coords", coords16);
 
-        return contentBarranquilla15;
+        return contentBarranquilla16;
 
     }
 

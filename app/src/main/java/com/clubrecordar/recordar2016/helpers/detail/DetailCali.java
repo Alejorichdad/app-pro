@@ -49,7 +49,7 @@ public class DetailCali {
     public static int imageFile2 = R.drawable.gian;
     public static String coords2 = "3.412104, -76.533506";
 
-    public static String title3 = "Estrellas Del Norte\"";
+    public static String title3 = "Estrellas Del Norte";
     public static String description3 = "Actividad:\n" + "\n Formación deportiva de niños y niñas desde los 3 hasta los 15 años de edad.\n" + "\nBeneficio:\n" + "\nDescuento del 30% en la mensualidad.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nAvenida 3E Norte 59N-130 casa 32\n" +
             "Juan Felipe Gruesso / Móvil: 304 461 2517 E-mail: juanpipe86@hotmail.com\n";
     public static String phone3 = "304 461 2517";
@@ -94,8 +94,8 @@ public class DetailCali {
             "PBX (2) 375 7993 / Movil 314 726 1853 - 320 696 3881\n" +
             "e-mail: gerencia@extremeworld.com.co - aparmenida@hotmail.com\n";
     public static String phone7 = "314 726 1853";
-    public static String email7 = "aparmenida@hotmail.comm";
-    public static int imageFile7 = R.drawable.carva;
+    public static String email7 = "aparmenida@hotmail.com";
+    public static int imageFile7 = R.drawable.extrem;
     public static String coords7 = "3.451956, -76.522656";
 
     public static String title8 = "Alta Peluquería New Life";

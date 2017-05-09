@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by willians on 30/7/16.
+ * Created by alejandro on 30/7/16.
  */
 public class ContentBarranquilla {
 
@@ -67,16 +67,16 @@ public class ContentBarranquilla {
     public static String description13 = "Formación deportiva";
 
     public static String titulo14 = "Colegio Inca";
-    public static int imageFile14 = R.drawable.incad;
+    public static int imageFile14 = R.drawable.incacole;
     public static String description14 = "Entidad educativa ";
 
     public static String titulo15 = "Centro Inca";
-    public static int imageFile15 = R.drawable.centroinca;
+    public static int imageFile15 = R.drawable.centrinca;
     public static String description15 = "Educación para el trabajo y el desarrollo humano,";
 
     public static String titulo16 = "Falab";
     public static int imageFile16 = R.drawable.falab;
-    public static String description16 = "Grupo integral de salud,";
+    public static String description16 = "Grupo integral de salud";
 
 
 

@@ -24,7 +24,7 @@ public class ContentValle {
 
     public static String titulo3 = " Rapi Chiken";
     public static int imageFile3 = R.drawable.rappi;
-    public static String description3 = "Se especializa en la preparación de alimentos dese hace 10 años";
+    public static String description3 = "Especializada en la preparación de alimentos dese hace 10 años";
 
     public static String titulo4 = "Spa Diana Ardila";
     public static int imageFile4 = R.drawable.dianaradila;
