@@ -75,3 +75,6 @@ public class BarranquillaDetSeventeenthActivity extends AppCompatActivity {
         //Toast.makeText(v.getContext(), "Correo: ", Toast.LENGTH_LONG).show();
     }
 }
+
+
+

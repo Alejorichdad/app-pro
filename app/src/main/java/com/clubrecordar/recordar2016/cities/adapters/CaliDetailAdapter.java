@@ -462,12 +462,12 @@ public class CaliDetailAdapter extends RecyclerView.Adapter<CaliDetailAdapter.Ca
                     break;
                 case 17:
                     try {
-                        title = (String) DetailCali.getDetailCali().getJSONObject("item17").get("title");
-                        description = (String) DetailCali.getDetailCali().getJSONObject("item17").get("description");
-                        phone = (String) DetailCali.getDetailCali().getJSONObject("item17").get("phone");
-                        email = (String) DetailCali.getDetailCali().getJSONObject("item17").get("email");
-                        coords = (String) DetailCali.getDetailCali().getJSONObject("item17").get("coords");
-                        image = (int) DetailCali.getDetailCali().getJSONObject("item17").get("image");
+                        title = (String) DetailCali.getDetailCali().getJSONObject("item18").get("title");
+                        description = (String) DetailCali.getDetailCali().getJSONObject("item18").get("description");
+                        phone = (String) DetailCali.getDetailCali().getJSONObject("item18").get("phone");
+                        email = (String) DetailCali.getDetailCali().getJSONObject("item18").get("email");
+                        coords = (String) DetailCali.getDetailCali().getJSONObject("item18").get("coords");
+                        image = (int) DetailCali.getDetailCali().getJSONObject("item18").get("image");
 
                     } catch (JSONException e) {
                         e.printStackTrace();

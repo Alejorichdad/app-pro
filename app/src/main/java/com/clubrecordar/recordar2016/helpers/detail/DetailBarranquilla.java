@@ -28,6 +28,7 @@ public class DetailBarranquilla {
     public static JSONObject contentBarranquilla15 =  new JSONObject();
     public static JSONObject contentBarranquilla16 =  new JSONObject();
     public static JSONObject contentBarranquilla17 = new JSONObject();
+    public static JSONObject contentBarranquilla18 = new JSONObject();
 
     /* DATA */
 
@@ -163,13 +164,26 @@ public class DetailBarranquilla {
     public static String coords16 = "10.999680, -74.812002";
 
     public static String title17 = "lam";
-    public static String description17 = "Actividad:\n" + "\nBrindar a todos nuestros clientes servicios confiables en laboratorios clínico, salud ocupacional y medicina general y especializada que impacte en la calidad de vida de los mismos.\n" + "\nBeneficio:\n" + "\n$80.000 Consultas ginecolólica. $80.000 Consulta medico internista. $25.000 Consulta con fonoaudiología. $20.000 Consulta con optometría. $20.000 Electrocardiograma.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nwww.laboratoriosfalab.com\n" +
-            "Carrera 49B # 79 - 99 / Movil: 312 541 1816\n" +
-            "Cari Calle 57 # 23 - 100 / Tel.: (5) 330 9000 Ext.: 5175 / Movil: 312 660 3097 IPS Carrera 47 # 79 - 100 / Movil: 315 748 2972 - 312 660 3085\n";
-    public static String phone17 = "312 660 3085";
+    public static String description17 = "Actividad:\n" + "\nBrindan soluciones integrales de diagnóstico (compradores incógnitos - Mystery Shopper) que ayuden en el mejoramiento de la fuerza de ventas y atención al cliente de manera continua, utilizando videos en full HD y con la mayor privacidad de la información obtenida en visitas a PDV.\n" + "\nBeneficio:\n" + "\n15% de descuento para Barranquilla.\n" +
+            "10% de descuento para las demás ciudades de la costa norte (aplicaría para Valledupar y Cartagena).\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n\n" + "\nContacto:\n" + "\nCarlos E. Forero Barrios\n" +
+            "Tel.:(5) 355 9289\n" +
+            "Móvil: 301 438 3277\n" +
+            "Carrera 78 No. 80 - 115\n";
+    public static String phone17 = "301 438 3277";
     public static String email17 = "alejandro.clubrecordar@gmail.com";
     public static int imageFile17 = R.drawable.lam;
-    public static String coords17 = "10.999680, -74.812002";
+    public static String coords17 = "11.020817, -74.804356";
+
+    public static String title18 = "Edwin Ramos";
+    public static String description18 = "Actividad:\n" + "\nBrindan soluciones integrales de diagnóstico (compradores incógnitos - Mystery Shopper) que ayuden en el mejoramiento de la fuerza de ventas y atención al cliente de manera continua, utilizando videos en full HD y con la mayor privacidad de la información obtenida en visitas a PDV.\n" + "\nBeneficio:\n" + "\n15% de descuento para Barranquilla.\n" +
+            "10% de descuento para las demás ciudades de la costa norte (aplicaría para Valledupar y Cartagena).\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n\n" + "\nContacto:\n" + "\nCarlos E. Forero Barrios\n" +
+            "Tel.:(5) 355 9289\n" +
+            "Móvil: 301 438 3277\n" +
+            "Carrera 78 No. 80 - 115\n";
+    public static String phone18 = "301 438 3277";
+    public static String email18 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile18 = R.drawable.lam;
+    public static String coords18 = "11.020817, -74.804356";
 
 
     public static void addObjectsBarranquilla(){
@@ -192,6 +206,7 @@ public class DetailBarranquilla {
             mainContentBarranquilla.put("item15", getFifteenthItemData());
             mainContentBarranquilla.put("item16", getSixteenthItemData());
             mainContentBarranquilla.put("item17", getSeventeenthItemData());
+            mainContentBarranquilla.put("item18", getEighteenthItemData());
 
 
         } catch (JSONException e) {
@@ -409,6 +424,19 @@ public class DetailBarranquilla {
         contentBarranquilla17.put("coords", coords17);
 
         return contentBarranquilla17;
+
+    }
+
+    public static JSONObject getEighteenthItemData() throws JSONException {
+
+        contentBarranquilla18.put("title", title18);
+        contentBarranquilla18.put("description", description18);
+        contentBarranquilla18.put("phone", phone18);
+        contentBarranquilla18.put("email", email18);
+        contentBarranquilla18.put("image", imageFile18);
+        contentBarranquilla18.put("coords", coords18);
+
+        return contentBarranquilla18;
 
     }
 

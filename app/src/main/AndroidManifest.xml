@@ -141,6 +141,10 @@
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.barranquilla.BarranquillaDetSixteenthActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.barranquilla.BarranquillaDetSeventeenthActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.barranquilla.BarranquillaDetEighteenthActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.bogota.BogotaDetSecActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.bogota.BogotaDetThirdActivity"

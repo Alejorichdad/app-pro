@@ -82,6 +82,10 @@ public class ContentBarranquilla {
     public static int imagenFile17 = R.drawable.lam;
     public static String description17 = "Mejoramiento de la fuerza de ventas";
 
+    public static String titulo18 = "Edwin Ramos";
+    public static int imagenFile18 = R.drawable.lam;
+    public static String description18 = "Consultoría en temas tributarios";
+
 
 
 
@@ -103,7 +107,8 @@ public class ContentBarranquilla {
         contentBarranquilla.add(new BarranquillaModel(imageFile14, titulo14, description14));
         contentBarranquilla.add(new BarranquillaModel(imageFile15, titulo15, description15));
         contentBarranquilla.add(new BarranquillaModel(imageFile16, titulo16, description16));
-        contentBarranquilla.add(new BarranquillaModel(imagenFile17,titulo17, description17));
+        contentBarranquilla.add(new BarranquillaModel(imagenFile17, titulo17, description17));
+        contentBarranquilla.add(new BarranquillaModel(imagenFile18, titulo18, description18));
 
     }
 
