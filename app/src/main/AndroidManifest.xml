@@ -145,6 +145,16 @@
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.barranquilla.BarranquillaDetEighteenthActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.barranquilla.BarranquillaDetNineteenthActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.barranquilla.BarranquillaDetTwentiethActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.barranquilla.BarranquillaDetTwentyFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.barranquilla.BarranquillaDetTwentySecondActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.barranquilla.BarranquillaDetTwentyThirdActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.bogota.BogotaDetSecActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.bogota.BogotaDetThirdActivity"

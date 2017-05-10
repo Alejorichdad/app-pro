@@ -83,8 +83,29 @@ public class ContentBarranquilla {
     public static String description17 = "Mejoramiento de la fuerza de ventas";
 
     public static String titulo18 = "Edwin Ramos";
-    public static int imagenFile18 = R.drawable.lam;
+    public static int imagenFile18 = R.drawable.edwin;
     public static String description18 = "Consultoría en temas tributarios";
+
+    public static String titulo19 = "Kurramba";
+    public static int imagenFile19 = R.drawable.kurramba;
+    public static String description19 = "Venta de comida tradicional";
+
+    public static String titulo20 = "Ingeautos";
+    public static int imagenFile20 = R.drawable.ingeautos;
+    public static String description20 = "Servicio técnico especializado";
+
+    public static String titulo21 = "Servinco";
+    public static int imagenFile21 = R.drawable.servinco;
+    public static String description21 = "Servicio técnico especializado";
+
+    public static String titulo22 = "La Fabrica";
+    public static int imagenFile22 = R.drawable.lafabrica;
+    public static String description22 = "confeccionados en telas lafayette";
+
+    public static String titulo23 = "Salón profesional de belleza Yenner";
+    public static int imagenFile23 = R.drawable.yenner;
+    public static String description23 = "Servicio integral de belleza,";
+
 
 
 
@@ -109,6 +130,11 @@ public class ContentBarranquilla {
         contentBarranquilla.add(new BarranquillaModel(imageFile16, titulo16, description16));
         contentBarranquilla.add(new BarranquillaModel(imagenFile17, titulo17, description17));
         contentBarranquilla.add(new BarranquillaModel(imagenFile18, titulo18, description18));
+        contentBarranquilla.add(new BarranquillaModel(imagenFile19, titulo19, description19));
+        contentBarranquilla.add(new BarranquillaModel(imagenFile20, titulo20, description20));
+        contentBarranquilla.add(new BarranquillaModel(imagenFile21, titulo21, description21));
+        contentBarranquilla.add(new BarranquillaModel(imagenFile22, titulo22, description22));
+        contentBarranquilla.add(new BarranquillaModel(imagenFile23, titulo23, description23));
 
     }
 

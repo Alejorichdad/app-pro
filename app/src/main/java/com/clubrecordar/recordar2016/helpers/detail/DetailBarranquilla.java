@@ -29,7 +29,11 @@ public class DetailBarranquilla {
     public static JSONObject contentBarranquilla16 =  new JSONObject();
     public static JSONObject contentBarranquilla17 = new JSONObject();
     public static JSONObject contentBarranquilla18 = new JSONObject();
-
+    public static JSONObject contentBarranquilla19 = new JSONObject();
+    public static JSONObject contentBarranquilla20 = new JSONObject();
+    public static JSONObject contentBarranquilla21 = new JSONObject();
+    public static JSONObject contentBarranquilla22 = new JSONObject();
+    public static JSONObject contentBarranquilla23 = new JSONObject();
     /* DATA */
 
     public static String title1 = "Spa Lily Tovar";
@@ -164,7 +168,7 @@ public class DetailBarranquilla {
     public static String coords16 = "10.999680, -74.812002";
 
     public static String title17 = "lam";
-    public static String description17 = "Actividad:\n" + "\nBrindan soluciones integrales de diagnóstico (compradores incógnitos - Mystery Shopper) que ayuden en el mejoramiento de la fuerza de ventas y atención al cliente de manera continua, utilizando videos en full HD y con la mayor privacidad de la información obtenida en visitas a PDV.\n" + "\nBeneficio:\n" + "\n15% de descuento para Barranquilla.\n" +
+    public static String description17 = "Actividad:\n" + "\nsoluciones integrales de diagnóstico (compradores incógnitos - Mystery Shopper) que ayuden en el mejoramiento de la fuerza de ventas y atención al cliente de manera continua, utilizando videos en full HD y con la mayor privacidad de la información obtenida en visitas a PDV.\n" + "\nBeneficio:\n" + "\n15% de descuento para Barranquilla.\n" +
             "10% de descuento para las demás ciudades de la costa norte (aplicaría para Valledupar y Cartagena).\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n\n" + "\nContacto:\n" + "\nCarlos E. Forero Barrios\n" +
             "Tel.:(5) 355 9289\n" +
             "Móvil: 301 438 3277\n" +
@@ -175,16 +179,57 @@ public class DetailBarranquilla {
     public static String coords17 = "11.020817, -74.804356";
 
     public static String title18 = "Edwin Ramos";
-    public static String description18 = "Actividad:\n" + "\nBrindan soluciones integrales de diagnóstico (compradores incógnitos - Mystery Shopper) que ayuden en el mejoramiento de la fuerza de ventas y atención al cliente de manera continua, utilizando videos en full HD y con la mayor privacidad de la información obtenida en visitas a PDV.\n" + "\nBeneficio:\n" + "\n15% de descuento para Barranquilla.\n" +
-            "10% de descuento para las demás ciudades de la costa norte (aplicaría para Valledupar y Cartagena).\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n\n" + "\nContacto:\n" + "\nCarlos E. Forero Barrios\n" +
-            "Tel.:(5) 355 9289\n" +
-            "Móvil: 301 438 3277\n" +
-            "Carrera 78 No. 80 - 115\n";
-    public static String phone18 = "301 438 3277";
-    public static String email18 = "alejandro.clubrecordar@gmail.com";
-    public static int imageFile18 = R.drawable.lam;
-    public static String coords18 = "11.020817, -74.804356";
+    public static String description18 = "Actividad:\n" + "\nConsultoría en temas tributarios, contables y financieros, brindan acompañamiento en la constitución de sociedades, elaboración y revisión de declaraciones de renta para empresas y personas naturales.\n" + "\nBeneficio:\n" + "\n5% de descuento para todas las actividades.\n" +
+             "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nEdwin Ramos\n" +  "Tel.:(5) 300 4299\n" +   "Móvil: 301 363 3383\n" +  "ramos.contable@gmail.com\n";
+    public static String phone18 = "301 363 3383";
+    public static String email18 = "ramos.contable@gmail.com";
+    public static int imageFile18 = R.drawable.edwin;
+    public static String coords18 = "10.985673, -74.775926";
 
+    public static String title19 = "Kurramba";
+    public static String description19 = "Actividad:\n" + "\nVenta de comida tradicional para desayunos, almuerzos y cenas, salón de eventos, reuniones empresariales y familiares, venta de pasabocas, catering.\n" + "\nBeneficio:\n" + "\n8% de descuento en asados, sopas y arroces.\n" +
+            "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nNelson Camargo Panza\n" +
+            "Tel.: 304 4350\n" + "Móvil: 300 263 4575\n" +  "Calle 82 No. 42G - 17";
+    public static String phone19 = "300 263 4575";
+    public static String email19 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile19 = R.drawable.kurramba;
+    public static String coords19 = "10.996328, -74.818591";
+
+    public static String title20 = "Ingeautos";
+    public static String description20 = "Actividad:\n" + "\n Servicio técnico especializado (mecánica, latonería, pintura, electricidad, aire acondicionado y suministro de repuestos en general).\n" + "\nBeneficio:\n" + "\n15% de descuento en todos los servicios\n" +
+            "\nCondiciones y Restricciones:\n" + "\nNo aplica para suministro de repuestos\n" +  "presentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nJuan Carlos Ospino\n" +
+            "Móvil: 301 748 9085 - 310 600 9229\n" +  "Calle 55 No. 45 - 22\n";
+    public static String phone20 = "301 748 9085";
+    public static String email20 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile20 = R.drawable.ingeautos;
+    public static String coords20 = "10.988527, -74.791985";
+
+    public static String title21 = "Servimco";
+    public static String description21 = "Actividad:\n" + "\n Plomería, mampostería, mantenimiento de piscinas, jardinería, pintura, impermeabilización de cubiertas de todo tipo, mantenimiento de motobombas y plantas eléctricas, mantenimiento e instalación de aires acondicionados, obra civil de todo tipo, mantenimiento e instalación, adecuación de cielo raso, muros, divisiones y cielos raso en yeso cartón, eterboard, superboard, carpintería en madera, hierro, vidrio, acero, aluminio (rejas, portones, barandas, pasamanos, puertas), pulimiento de pisos, cristalización, encerado.\n" +
+            "Mantenimiento de puertas de vidrio, gatos y bisagras hidráulicas.\n" + "\nBeneficio:\n" + "\n10% de descuento en todos los servicios.\n" +
+            "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nTel.:(5) 385 5455 - 356 5696\n" +
+            "Móvil: 301 233 3416 - 316 293 02 52\n" +  "Carrera 53 No. 75 - 87\n" + "Oficina 2-4\n" + "servimcodelcaribe@hotmail.com\n" + "gerencia@servimcodelcaribe.com\n";
+    public static String phone21 = "301 233 3416";
+    public static String email21 = "servimcodelcaribe@hotmail.com";
+    public static int imageFile21 = R.drawable.servinco;
+    public static String coords21 = "11.001874, -74.805079";
+
+    public static String title22 = "La Fábrica";
+    public static String description22 = "Actividad:\n" + "\n Diseño y elaboración de uniformes administrativos y operativos confeccionados en telas lafayette y Fabricato como son el oxford, algodón strech, drill strech, vértigo, supervertigo, anti fluidos, entre otras de excelente calidad y una gran variedad de colores y diseños para escoger. Venta de gorras y pendones publicitarios, servicio de bordados y estampados, según sea la necesidad de su empresa.\n" + "\nBeneficio:\n" + "\n5 % de descuento en todos los productos.\n" +
+            "5% de descuento adicional de acuerdo con la compra.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nEliana Brieva Navas\n" + "Tel. (5) 300 4299\n" +   "Móvil 300 561 6236\n";
+    public static String phone22 = "300 561 6236";
+    public static String email22 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile22 = R.drawable.lafabrica;
+    public static String coords22 = "#";
+
+    public static String title23 = "Salón profesional de belleza Yenner";
+    public static String description23 = "Actividad:\n" + "\n Servicio integral de belleza, peinado de novia, barbería, eventos de cumpleaños.\n" + "Cuidado del cabello; blower, cambios de color, cambio de ondulación permanente, alisado, keratina. Cirugía capilar y tratamientos.\n" + "Cuidado del rostro y cuerpo, diseño de cejas con cera, maquillaje, depilación con cera, manicure, pedicura, hidratación con parafina para manos y pies. Servicio al cliente, tienda de venta de cosméticos y cafetería.\n" + "\nBeneficio:\n" + "\n10% de descuento en procesos químicos y 15% todos los servicios.\n" +
+           "\nCondiciones y Restricciones:\n" + "\nEl descuento NO aplica con químicos.\n" + "Presentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nMinerva Cabezas\n" +
+            "Tel.: (5) 324 502\n" + "Móvil: 305 749 5975\n" + "Carrera 44 No.79 - 07 Local No. 4";
+    public static String phone23 = "305 749 5975";
+    public static String email23 = "alejandro.clubrecordar@gmail.com";
+    public static int imageFile23 = R.drawable.yenner;
+    public static String coords23 = "10.996519, -74.813002";
 
     public static void addObjectsBarranquilla(){
         try {
@@ -207,6 +252,11 @@ public class DetailBarranquilla {
             mainContentBarranquilla.put("item16", getSixteenthItemData());
             mainContentBarranquilla.put("item17", getSeventeenthItemData());
             mainContentBarranquilla.put("item18", getEighteenthItemData());
+            mainContentBarranquilla.put("item19", getNineteenthItemData());
+            mainContentBarranquilla.put("item20", getTwentiethItemData());
+            mainContentBarranquilla.put("item21", getTwentyFirtsItemData());
+            mainContentBarranquilla.put("item22", getTwentySecondItemData());
+            mainContentBarranquilla.put("item23", getTwentyThirdItemData());
 
 
         } catch (JSONException e) {
@@ -440,7 +490,64 @@ public class DetailBarranquilla {
 
     }
 
+    public static JSONObject getNineteenthItemData() throws JSONException {
+
+        contentBarranquilla19.put("title", title19);
+        contentBarranquilla19.put("description", description19);
+        contentBarranquilla19.put("phone", phone19);
+        contentBarranquilla19.put("email", email19);
+        contentBarranquilla19.put("image", imageFile19);
+        contentBarranquilla19.put("coords", coords19);
+
+        return contentBarranquilla19;
+    }
+
+    public static JSONObject getTwentiethItemData() throws JSONException {
+
+        contentBarranquilla20.put("title", title20);
+        contentBarranquilla20.put("description", description20);
+        contentBarranquilla20.put("phone", phone20);
+        contentBarranquilla20.put("email", email20);
+        contentBarranquilla20.put("image", imageFile20);
+        contentBarranquilla20.put("coords", coords20);
+
+        return contentBarranquilla20;
+    }
+
+    public static JSONObject getTwentyFirtsItemData() throws JSONException {
+
+        contentBarranquilla21.put("title", title21);
+        contentBarranquilla21.put("description", description21);
+        contentBarranquilla21.put("phone", phone21);
+        contentBarranquilla21.put("email", email21);
+        contentBarranquilla21.put("image", imageFile21);
+        contentBarranquilla21.put("coords", coords21);
+
+        return contentBarranquilla21;
+    }
+
+    public static JSONObject getTwentySecondItemData() throws JSONException {
+
+        contentBarranquilla22.put("title", title22);
+        contentBarranquilla22.put("description", description22);
+        contentBarranquilla22.put("phone", phone22);
+        contentBarranquilla22.put("email", email22);
+        contentBarranquilla22.put("image", imageFile22);
+        contentBarranquilla22.put("coords", coords22);
+
+        return contentBarranquilla22;
+    }
 
 
+    public static JSONObject getTwentyThirdItemData() throws JSONException {
 
+        contentBarranquilla23.put("title", title23);
+        contentBarranquilla23.put("description", description23);
+        contentBarranquilla23.put("phone", phone23);
+        contentBarranquilla23.put("email", email23);
+        contentBarranquilla23.put("image", imageFile23);
+        contentBarranquilla23.put("coords", coords23);
+
+        return contentBarranquilla23;
+    }
 }
