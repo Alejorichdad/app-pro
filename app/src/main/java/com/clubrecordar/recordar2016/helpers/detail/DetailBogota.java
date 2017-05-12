@@ -24,7 +24,8 @@ public class DetailBogota {
     public static JSONObject contentBogota11 =  new JSONObject();
     public static JSONObject contentBogota12 =  new JSONObject();
     public static JSONObject contentBogota13 =  new JSONObject();
-   /* public static JSONObject contentBogota14 =  new JSONObject();
+    public static JSONObject contentBogota14 =  new JSONObject();
+    /*
     public static JSONObject contentBogota15 =  new JSONObject();
     public static JSONObject contentBogota16 =  new JSONObject();
     public static JSONObject contentBogota17 =  new JSONObject();
@@ -160,7 +161,7 @@ public class DetailBogota {
     public static int imageFile13 = R.drawable.sonriad;
     public static String coords13 = "4.644985, -74.072570";
 
-/*
+
     public static String title14 = "Ensiso";
     public static String description14 = "Actividad:\n" +
                                          "\nCentro integral de Belleza (Spa)\n" +
@@ -170,9 +171,11 @@ public class DetailBogota {
                                          "\nPresentar el carnet del Club Recordar y el documento de identificación.\n" +
                                          "\nContacto:\n" + "\nCarrera 43 No. 67 - 64 Local No.03\n";
     public static String phone14 = "3158564657";
-    public static String email14 = "info@ensisostapeluqueria.com";
+    public static String email14 = "info@encisostaffpeluqueria.com";
     public static int imageFile14 = R.drawable.encisod;
     public static String coords14 = "4.702100, -74.057308";
+
+    /*
 
     public static String title15 = "Mi Cocina Campetre";
     public static String description15 = "Contacto: Carolina llanos, beneficio para los afiliados: descuentos especial en eventos empresariales, sociales y colegios.";
@@ -253,8 +256,8 @@ public class DetailBogota {
             mainContentBogota.put("item11", getEleventhItemData());
             mainContentBogota.put("item12", getTwelvethItemData());
             mainContentBogota.put("item13", getThirdteenthItemData());
-           /* mainContentBogota.put("item14", getFourteenthItemData());
-            mainContentBogota.put("item15", getFifteenthItemData());
+            mainContentBogota.put("item14", getFourteenthItemData());
+          /*    mainContentBogota.put("item15", getFifteenthItemData());
             mainContentBogota.put("item16", getSixteenthItemData());
             mainContentBogota.put("item17", getSeventeenthItemData());
             mainContentBogota.put("item18", getEighteenthItemData());
@@ -429,7 +432,7 @@ public class DetailBogota {
 
         return contentBogota13;
     }
-    /*
+
 
     public static JSONObject getFourteenthItemData() throws JSONException {
 
@@ -442,7 +445,7 @@ public class DetailBogota {
 
         return contentBogota14;
     }
-
+/*
     public static JSONObject getFifteenthItemData() throws JSONException {
 
         contentBogota15.put("title", title15);

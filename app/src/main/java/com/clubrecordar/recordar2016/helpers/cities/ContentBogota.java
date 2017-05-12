@@ -65,12 +65,12 @@ public class ContentBogota {
     public static int imageFile13 = R.drawable.sonria;
     public static String description13 = "Clínica Dental Sonría";
 
-    /*
+
 
     public static String titulo14 = "Enciso Staff";
     public static int imageFile14 = R.drawable.enciso;
     public static String description14 = "Peluquería y asesoría de novias";
-
+  /*
     public static String titulo15 = "Mi Cocina Campetre";
     public static int imageFile15 = R.drawable.micocina;
     public static String description15 = "Tus eventos en un maravilloso sitio campestre";
@@ -124,8 +124,8 @@ public class ContentBogota {
         contentBogota.add(new BogotaModel(imageFile11, titulo11, description11));
         contentBogota.add(new BogotaModel(imageFile12, titulo12, description12));
         contentBogota.add(new BogotaModel(imageFile13, titulo13, description13));
-        /*
         contentBogota.add(new BogotaModel(imageFile14, titulo14, description14));
+          /*
         contentBogota.add(new BogotaModel(imageFile15, titulo15, description15));
         contentBogota.add(new BogotaModel(imageFile16, titulo16, description16));
         contentBogota.add(new BogotaModel(imageFile17, titulo17, description17));
