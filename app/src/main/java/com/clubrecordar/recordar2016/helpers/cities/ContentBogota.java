@@ -70,32 +70,32 @@ public class ContentBogota {
     public static String titulo14 = "Enciso Staff";
     public static int imageFile14 = R.drawable.enciso;
     public static String description14 = "Peluquería y asesoría de novias";
-  /*
-    public static String titulo15 = "Mi Cocina Campetre";
-    public static int imageFile15 = R.drawable.micocina;
-    public static String description15 = "Tus eventos en un maravilloso sitio campestre";
 
-    public static String titulo16 = "Suchi Empire";
-    public static int imageFile16 = R.drawable.suchi;
-    public static String description16 = "Lo mejor al norte de Bogota";
+    public static String titulo15 = "Catuai";
+    public static int imageFile15 = R.drawable.cataui;
+    public static String description15 = "Dedicada a la comercialización de productos a base de café.";
 
-    public static String titulo17 = "Hotel la Esperanza";
-    public static int imageFile17 = R.drawable.esperanza;
-    public static String description17 = "Disfruta de lo mejor en suesca";
+    public static String titulo16 = "Huertas Orgánicas";
+    public static int imageFile16 = R.drawable.huerta;
+    public static String description16 = "Verduras y hortalizas organicas.";
+
+    public static String titulo17 = "Green House";
+    public static int imageFile17 = R.drawable.greenhouse;
+    public static String description17 = "Producción y comercialización de bebidas nutraceúticas ";
 
     public static String titulo18 = "Show Place";
     public static int imageFile18 = R.drawable.showplace;
-    public static String description18 = "realiza Las mejores Megafiestas de cumpleaños para tu hijo,";
+    public static String description18 = "Realiza Las mejores Megafiestas de cumpleaños para tu hijo,";
 
-    public static String titulo19 = "Green Adventure";
-    public static int imageFile19 = R.drawable.greenadven;
-    public static String description19 = "Deporte extremo";
+    public static String titulo19 = "Francy Eugenia Ariza";
+    public static int imageFile19 = R.drawable.francy;
+    public static String description19 = "Asesoría psicología, couch personal";
 
-    public static String titulo20 = "Mi Cocina Campetre 20";
-    public static int imageFile20 = R.drawable.micocina;
-    public static String description20 = "Tus eventos en un maravilloso sitio campestre";
+    public static String titulo20 = "Sandra B. Ramírez Abogada";
+    public static int imageFile20 = R.drawable.sandrab;
+    public static String description20 = "Prestación de servicios de asesoría legal";
 
-    public static String titulo21 = "Mi Cocina Campetre 21";
+/*  public static String titulo21 = "Mi Cocina Campetre 21";
     public static int imageFile21 = R.drawable.micocina;
     public static String description21 = "Tus eventos en un maravilloso sitio campestre";
 
@@ -125,14 +125,13 @@ public class ContentBogota {
         contentBogota.add(new BogotaModel(imageFile12, titulo12, description12));
         contentBogota.add(new BogotaModel(imageFile13, titulo13, description13));
         contentBogota.add(new BogotaModel(imageFile14, titulo14, description14));
-          /*
         contentBogota.add(new BogotaModel(imageFile15, titulo15, description15));
         contentBogota.add(new BogotaModel(imageFile16, titulo16, description16));
         contentBogota.add(new BogotaModel(imageFile17, titulo17, description17));
         contentBogota.add(new BogotaModel(imageFile18, titulo18, description18));
         contentBogota.add(new BogotaModel(imageFile19, titulo19, description19));
-       // contentBogota.add(new BogotaModel(imageFile20, titulo20, description20));
-       // contentBogota.add(new BogotaModel(imageFile21, titulo21, description21));
+        contentBogota.add(new BogotaModel(imageFile20, titulo20, description20));
+       /* contentBogota.add(new BogotaModel(imageFile21, titulo21, description21));
        // contentBogota.add(new BogotaModel(imageFile22, titulo22, description22));
        // contentBogota.add(new BogotaModel(imageFile23, titulo23, description23));
        */

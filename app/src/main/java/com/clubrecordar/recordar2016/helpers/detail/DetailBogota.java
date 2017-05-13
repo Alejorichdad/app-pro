@@ -25,14 +25,13 @@ public class DetailBogota {
     public static JSONObject contentBogota12 =  new JSONObject();
     public static JSONObject contentBogota13 =  new JSONObject();
     public static JSONObject contentBogota14 =  new JSONObject();
-    /*
     public static JSONObject contentBogota15 =  new JSONObject();
     public static JSONObject contentBogota16 =  new JSONObject();
     public static JSONObject contentBogota17 =  new JSONObject();
     public static JSONObject contentBogota18 =  new JSONObject();
     public static JSONObject contentBogota19 =  new JSONObject();
     public static JSONObject contentBogota20 =  new JSONObject();
-    public static JSONObject contentBogota21 =  new JSONObject();
+  /*  public static JSONObject contentBogota21 =  new JSONObject();
     public static JSONObject contentBogota22 =  new JSONObject();
     public static JSONObject contentBogota23 =  new JSONObject();
 */
@@ -175,71 +174,95 @@ public class DetailBogota {
     public static int imageFile14 = R.drawable.encisod;
     public static String coords14 = "4.702100, -74.057308";
 
-    /*
 
-    public static String title15 = "Mi Cocina Campetre";
-    public static String description15 = "Contacto: Carolina llanos, beneficio para los afiliados: descuentos especial en eventos empresariales, sociales y colegios.";
-    public static String phone15 = "3102209351";
-    public static String email15 = "carolina.llanos@clubrecordar.com";
-    public static int imageFile15 = R.drawable.micocinad;
-    public static String coords15 = "4.786417, -74.157939";
 
-    public static String title16 = "Sushi Empire";
-    public static String description16 = "Contacto: Iván Toscano, beneficio afiliados: $15 mil rollo de 12 porciones, mínimo para domicilios 2 unidades.";
-    public static String phone16 = "3052304411";
-    public static String email16 = "alianzas@clubrecordar.com";
-    public static int imageFile16 = R.drawable.suchi;
+    public static String title15 = "Catuai";
+    public static String description15 = "Actividad:\n" + "\n Empresa especialidad en café, dedicada a la comercialización de productos a base de café, tostión de café y accesorios.\n" + "\nBeneficio:\n" + "\n25 % de descuento sobre lista oficial de productos.\n" +
+            "20% en cursos de barismo, catas empresariales de café y en cursos para amantes del café.\n" +
+            "10% en accesorios para preparación de café y Catering empresarial.\n" +  "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nPBX: (1) 355 2691\n" +
+            "Móvil: 317 657 0370\n" +
+            "Calle 31 No. 13A-51 Local LP3\n" +
+            "Catuai Centro Internacional, Catuai Nogal, Carrera 12a # 79-25\n" +
+            "leopoldo.ojeda@catuaicofee.com\n" +
+            "www.catuaicoffee.com\n";
+    public static String phone15 = "317 657 0370";
+    public static String email15 = "leopoldo.ojeda@catuaicofee.com";
+    public static int imageFile15 = R.drawable.cataui;
+    public static String coords15 = "4.618363, -74.070732";
+
+    public static String title16 = "Huertas Orgánicas";
+    public static String description16 = "Actividad:\n" + "\nEmpresa dedicada a la producción y comercialización de todo tipo de verduras y hortalizas organicas.\n" + "\nBeneficio:\n" + "\n10% de decuentos sobre la lista oficial de productos.\n" + "\nCondiciones y Restricciones:\n" + "\nServicio a domicilio costo adicional $ 5.000.\n" +
+              "Se hacen despachos a Bogotá todos los martes en horas de la mañana.\n" +
+              "Presentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nVereda Marquez\n" +
+              "Móvil: 311 210 0210 - 321 409 5717\n" +
+              "Finca la Glorieta\n" +  "ho.huertaorganicas@gmail.com\n";
+    public static String phone16 = "311 210 0210";
+    public static String email16 = "ho.huertaorganicas@gmail.com";
+    public static int imageFile16 = R.drawable.huerta;
     public static String coords16 = "#";
 
-    public static String title17 = "Hotel la Esperanza";
-    public static String description17 = "Contacto: Elcy Lara, beneficio afiliados: 15% descuento planes especiales y 90 mil pesos hospedaje pareja con desayuno.";
-    public static String phone17 = "3202271808";
-    public static String email17 = "elcyhotel@yahoo.es";
-    public static int imageFile17 = R.drawable.esperanza;
-    public static String coords17 = "5.113320, -73.794520";
+
+
+    public static String title17 = "Green House";
+    public static String description17 = "Actividad:\n" + "\nEmpresa dedicada a la producción y comercialización de bebidas nutraceúticas elaboradas en frío y totalmente artesanal sin agua ni endulzantes artificales.\n" + "\nBeneficio:\n" + "\n20% de descuento sobre lista oficial.\n" +
+              "Planes y precios especiales para 1, 2 o 3 jugos diarios durante 30 dias.\n" + "\nCondiciones y Restricciones:\n" + "\n.Presentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nMóvil: 300 687 9980\n" +
+              "Carrera 6 No. 54A-48 Of. 601\n" +  "naturalmentesetenota@gmail.com\n";
+    public static String phone17 = "300 687 9980";
+    public static String email17 = "naturalmentesetenota@gmail.com";
+    public static int imageFile17 = R.drawable.greenhouse;
+    public static String coords17 = "4.640840, -74.061928";
+
 
     public static String title18 = "Show Place";
-    public static String description18 = "Contacto: Tatiana Albarracin, beneficio para los afiliados: 10% de descuento en la entrada y fiestas.";
+    public static String description18 = "Actividad:\n" + "\nDesarrollo de actividades educativas, culturales y recreativas para niños\n" + "\nBeneficio:\n" + "\n25% Descuento en ingresos de niños de 4 meses a 12 años en actividades de recreación .\n" + "\nCondiciones y Restricciones:\n" + "\nEl 25% solo aplica para niños entre las edades de 4 meses a 12 años.\n" +
+              "El bono cubre el ingreso y las respectivas actividades que ofrece el lugar. Presentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nTatiana Albarracín\n" + "Tel.: (1) 633 2920 Ext. 116\n" +  "Móvil: 318 623 8266 \n" + "Calle 147 No. 7 -52 \n" +  "Centro comercial Show Place\n" +
+              "info@showplace.com.co\n" + "www.showplace.com\n";
     public static String phone18 = "3186238266";
     public static String email18 = "info@showpleace.com.co";
     public static int imageFile18 = R.drawable.showplace;
     public static String coords18 = "4.723058, -74.026758";
 
     public static String title19 = "Green Adventure";
-    public static String description19 = "Contacto: Juan Manuel Forero, beneficio para afiliados: 10 % descuento en deportes extremos y aventura.";
-    public static String phone19 = "3212138280";
-    public static String email19 = "gagcolombia@gmail.com";
-    public static int imageFile19 = R.drawable.greenadven;
-    public static String coords19 = "4.597597, -74.074665";
+    public static String description19 = "Actividad:\n" + "\nAsesoría psicología, couch personal, terapias holísticas, esencias florales, reiki, cristales, ángeles, consultoria en desarrollo organizacional.\n" + "\nBeneficio:\n" + "\n10% de descuento en todos los servicios.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nFrancy Eugenia Ariza\n" +
+            "Móvil: 311 270 8513\n" +
+            "calle 95 No. 71 -75 T-1 Ap. 602\n" +
+            "francyarizam@gmail.com\n";
+    public static String phone19 = "311 270 8513";
+    public static String email19 = "francyarizam@gmail.com";
+    public static int imageFile19 = R.drawable.francy;
+    public static String coords19 = "4.696570, -74.083766";
 
-    public static String title20 = "titulo20";
-    public static String description20 = "description20";
-    public static String phone20 = "1544567";
-    public static String email20 = "some@gmail.com";
-    public static int imageFile20 = R.drawable.tienda;
-    public static String coords20 = "37.7749,-122.4194";
+      public static String title20 = "titulo20";
+      public static String description20 = "Actividad:\n" + "\nPrestación de servicios de asesoría legal, especializada en derecho de familia como: sucesiones, testamentos, divorcios, cesación de efectos civiles, liquidación de sociedades conyugales, capitulaciones y unión marital.\n" + "\nBeneficio:\n" + "\n10% de descuento en procesos como:\n" +
+              "Divorcios, sucesiones, testamentos, capítulaciones, liquidación de sociedades conyugales, consulta y asesoría gratis para clientes club recordar.\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n" + "\nContacto:\n" + "\nSandra Beatriz Ramiréz\n" +
+              "Móvil: 321 487 1284\n" +  "Carrera 14 No. 156 - 07\n" + "sbramirez2006@yahoo.es\n";
+    ;
+      public static String phone20 = "321 487 1284";
+      public static String email20 = "sbramirez2006@yahoo.es";
+      public static int imageFile20 = R.drawable.sandrab;
+      public static String coords20 = "37.7749,-122.4194";
+/*
+      public static String title21 = "titulo21";
+      public static String description21 = "description21";
+      public static String phone21 = "1544567";
+      public static String email21 = "some@gmail.com";
+      public static int imageFile21 = R.drawable.tienda;
+      public static String coords21 = "37.7749,-122.4194";
 
-    public static String title21 = "titulo21";
-    public static String description21 = "description21";
-    public static String phone21 = "1544567";
-    public static String email21 = "some@gmail.com";
-    public static int imageFile21 = R.drawable.tienda;
-    public static String coords21 = "37.7749,-122.4194";
+      public static String title22 = "titulo22";
+      public static String description22 = "description22";
+      public static String phone22 = "1544567";
+      public static String email22 = "some@gmail.com";
+      public static int imageFile22 = R.drawable.tienda;
+      public static String coords22 = "37.7749,-122.4194";
 
-    public static String title22 = "titulo22";
-    public static String description22 = "description22";
-    public static String phone22 = "1544567";
-    public static String email22 = "some@gmail.com";
-    public static int imageFile22 = R.drawable.tienda;
-    public static String coords22 = "37.7749,-122.4194";
-
-    public static String title23 = "titulo23";
-    public static String description23 = "description23";
-    public static String phone23 = "1544567";
-    public static String email23 = "some@gmail.com";
-    public static int imageFile23 = R.drawable.tienda;
-    public static String coords23 = "37.7749,-122.4194";
-*/
+      public static String title23 = "titulo23";
+      public static String description23 = "description23";
+      public static String phone23 = "1544567";
+      public static String email23 = "some@gmail.com";
+      public static int imageFile23 = R.drawable.tienda;
+      public static String coords23 = "37.7749,-122.4194";
+  */
     public static void addObjectsBogota(){
         try {
 
@@ -257,13 +280,13 @@ public class DetailBogota {
             mainContentBogota.put("item12", getTwelvethItemData());
             mainContentBogota.put("item13", getThirdteenthItemData());
             mainContentBogota.put("item14", getFourteenthItemData());
-          /*    mainContentBogota.put("item15", getFifteenthItemData());
+            mainContentBogota.put("item15", getFifteenthItemData());
             mainContentBogota.put("item16", getSixteenthItemData());
             mainContentBogota.put("item17", getSeventeenthItemData());
             mainContentBogota.put("item18", getEighteenthItemData());
             mainContentBogota.put("item19", getNineteenthItemData());
             mainContentBogota.put("item20", getTwentythItemData());
-            mainContentBogota.put("item21", getTwentiFirstItemData());
+            /*mainContentBogota.put("item21", getTwentiFirstItemData());
             mainContentBogota.put("item22", getTwentiSecondItemData());
             mainContentBogota.put("item23", getTwentiThirdItemData());
             */
@@ -445,7 +468,7 @@ public class DetailBogota {
 
         return contentBogota14;
     }
-/*
+
     public static JSONObject getFifteenthItemData() throws JSONException {
 
         contentBogota15.put("title", title15);
@@ -457,6 +480,8 @@ public class DetailBogota {
 
         return contentBogota15;
     }
+
+
 
     public static JSONObject getSixteenthItemData() throws JSONException {
 
@@ -517,7 +542,7 @@ public class DetailBogota {
 
         return contentBogota20;
     }
-
+/*
     public static JSONObject getTwentiFirstItemData() throws JSONException {
 
         contentBogota21.put("title", title21);
