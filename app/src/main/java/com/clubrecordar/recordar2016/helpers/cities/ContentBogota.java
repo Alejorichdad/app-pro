@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by willians on 30/7/16.
+ * Created by alejorichdad on 30/7/16.
  */
 public class ContentBogota {
 
@@ -65,8 +65,6 @@ public class ContentBogota {
     public static int imageFile13 = R.drawable.sonria;
     public static String description13 = "Clínica Dental Sonría";
 
-
-
     public static String titulo14 = "Enciso Staff";
     public static int imageFile14 = R.drawable.enciso;
     public static String description14 = "Peluquería y asesoría de novias";
@@ -95,19 +93,67 @@ public class ContentBogota {
     public static int imageFile20 = R.drawable.sandrab;
     public static String description20 = "Prestación de servicios de asesoría legal";
 
-/*  public static String titulo21 = "Mi Cocina Campetre 21";
-    public static int imageFile21 = R.drawable.micocina;
-    public static String description21 = "Tus eventos en un maravilloso sitio campestre";
+    public static String titulo21 = "ADN";
+    public static int imageFile21 = R.drawable.adn;
+    public static String description21 = "Asesoramiento en productos financieros";
 
-    public static String titulo22 = "Mi Cocina Campetre 22";
-    public static int imageFile22 = R.drawable.micocina;
-    public static String description22 = "Tus eventos en un maravilloso sitio campestre";
+    public static String titulo22 = "Central Truth";
+    public static int imageFile22 = R.drawable.central;
+    public static String description22 = "Pruebas poligráficas, dictámenes técnico-científicos ";
 
-    public static String titulo23 = "Mi Cocina Campetre 23";
-    public static int imageFile23 = R.drawable.micocina;
-    public static String description23 = "Tus eventos en un maravilloso sitio campestre";
+    public static String titulo23 = "Rehab";
+    public static int imageFile23 = R.drawable.rehab;
+    public static String description23 = "Atención de salud, expendio de comidas preparadas";
 
-    */
+    public static String titulo24 = "Fundación San José";
+    public static int imageFile24 = R.drawable.sanjose;
+    public static String description24 = "Programas académicos en metodologías presenciales y 100% virtual";
+
+
+    public static String titulo25 = "Musicalizate";
+    public static int imageFile25 = R.drawable.musicalizate;
+    public static String description25 = "Acompañamientos musicales para reuniones sociales y misas.";
+
+    public static String titulo26 = "Seguros Sura";
+    public static int imageFile26 = R.drawable.sura;
+    public static String description26 = "Acompañamientos musicales para reuniones sociales y misas.";
+
+    public static String titulo27 = "Ultra Phones";
+    public static int imageFile27 = R.drawable.ultra1;
+    public static String description27 = "Compraventa de dispositivos móviles";
+
+    public static String titulo28 = "Flores Constanza";
+    public static int imageFile28 = R.drawable.flores;
+    public static String description28 = "Diseño de arreglos florales y ventas al detal.";
+
+    public static String titulo29 = "óptica Agilar";
+    public static int imageFile29 = R.drawable.optica_a;
+    public static String description29 = "Prestación de servicios de salud visual.";
+
+    public static String titulo30 = "Bowling Stars";
+    public static int imageFile30 = R.drawable.bowling;
+    public static String description30 = "Esparcimiento por medio del juego de bolos.";
+
+    public static String titulo31 = "3 Cárites";
+    public static int imageFile31 = R.drawable.carites;
+    public static String description31 = "Esparcimiento por medio del juego de bolos.";
+
+    public static String titulo32 = "HM Marboré D.C. Hotel";
+    public static int imageFile32 = R.drawable.marbore;
+    public static String description32 = "Establecimientos hoteleros y restaurantes.";
+
+    public static String titulo33 = "Finca hotel spa Zhay";
+    public static int imageFile33 = R.drawable.zhay;
+    public static String description33 = "Establecimientos hoteleros y restaurantes.";
+
+    public static String titulo34 = "Descubre Villa de Leyva";
+    public static int imageFile34 = R.drawable.villadel;
+    public static String description34 = "Operadores Turísticos";
+
+    public static String titulo35 = "Colturex";
+    public static int imageFile35 = R.drawable.colturex;
+    public static String description35 = "Servicio de transporte terrestre automotor especia";
+
 
     public static void addContentBogota(){
 
@@ -131,10 +177,21 @@ public class ContentBogota {
         contentBogota.add(new BogotaModel(imageFile18, titulo18, description18));
         contentBogota.add(new BogotaModel(imageFile19, titulo19, description19));
         contentBogota.add(new BogotaModel(imageFile20, titulo20, description20));
-       /* contentBogota.add(new BogotaModel(imageFile21, titulo21, description21));
-       // contentBogota.add(new BogotaModel(imageFile22, titulo22, description22));
-       // contentBogota.add(new BogotaModel(imageFile23, titulo23, description23));
-       */
+        contentBogota.add(new BogotaModel(imageFile21, titulo21, description21));
+        contentBogota.add(new BogotaModel(imageFile22, titulo22, description22));
+        contentBogota.add(new BogotaModel(imageFile23, titulo23, description23));
+        contentBogota.add(new BogotaModel(imageFile24, titulo24, description24));
+        contentBogota.add(new BogotaModel(imageFile25, titulo25, description25));
+        contentBogota.add(new BogotaModel(imageFile26, titulo26, description26));
+        contentBogota.add(new BogotaModel(imageFile27, titulo27, description27));
+        contentBogota.add(new BogotaModel(imageFile28, titulo28, description28));
+        contentBogota.add(new BogotaModel(imageFile29, titulo29, description29));
+        contentBogota.add(new BogotaModel(imageFile30, titulo30, description30));
+        contentBogota.add(new BogotaModel(imageFile31, titulo31, description31));
+        contentBogota.add(new BogotaModel(imageFile32, titulo32, description32));
+        contentBogota.add(new BogotaModel(imageFile33, titulo33, description33));
+        contentBogota.add(new BogotaModel(imageFile34, titulo34, description34));
+        contentBogota.add(new BogotaModel(imageFile35, titulo35, description35));
     }
 
     public static List<BogotaModel> getContentBogota(){
