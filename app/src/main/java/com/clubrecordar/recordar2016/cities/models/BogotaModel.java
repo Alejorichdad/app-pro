@@ -14,6 +14,14 @@ public class BogotaModel {
         this.titulo_imagen = titulo_imagen;
         this.beneficio = beneficio;
 
+
+
+
+
+
+
+
+
     }
 
     public int getIdImagen(){

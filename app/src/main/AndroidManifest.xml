@@ -223,6 +223,10 @@
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.bogota.BogotaDetThirtyFifthActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.bogota.BogotaDetThirtySixthActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".detailsItem.bogota.BogotaDetThirtySeventhActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.boyaca.BoyacaDetFirstActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".detailsItem.boyaca.BoyacaDetSecActivity"

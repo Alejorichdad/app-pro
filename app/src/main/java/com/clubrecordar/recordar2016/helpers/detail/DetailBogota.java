@@ -46,6 +46,9 @@ public class DetailBogota {
     public static JSONObject contentBogota33 =  new JSONObject();
     public static JSONObject contentBogota34 =  new JSONObject();
     public static JSONObject contentBogota35 =  new JSONObject();
+    public static JSONObject contentBogota36 =  new JSONObject();
+    public static JSONObject contentBogota37 =  new JSONObject();
+    public static JSONObject contentBogota38 =  new JSONObject();
 
     /* DATA */
 
@@ -428,6 +431,46 @@ public class DetailBogota {
     public static int imageFile35 = R.drawable.colturex;
     public static String coords35 = "4.763078, -74.093079";
 
+    public static String title36 = "EG";
+    public static String description36 = "Actividad:\n" + "\nServicios de Facility Management o servicios de mantenimiento integrado, adecuaciones, remodelaciones y obra civil en general para oficinas y multinacionales.\n" + "\nBeneficio:\n" + "\n5% de descuento sobre el valor correspondiente a la administración de la obra a realizar.\n" + "\nCondiciones y Restricciones:\n" + "\nNo acumulable con otras promociones.\n" +
+            "Contactar primero para agendar cita.\n" +
+            "Presentar el carné del Club Recordar y el documento de identificación.\n" +
+            "\nContacto:\n" + "\nLeidy Mariana Ruiz Blanco\n" +
+            "Tel.: (1) 642 0092\n" +
+            "Móvil: 322 332 7942\n" +
+            "Calle 100 No. 8 A 37 Word Trade Center\n" +
+            "asismtto@eg-colombia.com\n" +
+            "www.eg-colombia.com\n";
+    public static String phone36 = " 322 332 7942";
+    public static String email36 = "asismtto@eg-colombia.com";
+    public static int imageFile36 = R.drawable.ag;
+    public static String coords36 = "4.681005, -74.040821";
+
+    public static String title37 = "Tecnilimpio";
+    public static String description37 = "Actividad:\n" + "\nServicios de Facility Management o servicios de mantenimiento integrado, adecuaciones, remodelaciones y obra civil en general para oficinas y multinacionales.\n" + "\nBeneficio:\n" + "\n5% de descuento sobre el valor correspondiente a la administración de la obra a realizar.\n" + "\nCondiciones y Restricciones:\n" + "\nNo acumulable con otras promociones.\n" +
+            "Contactar primero para agendar cita.\n" +
+            "Presentar el carné del Club Recordar y el documento de identificación.\n" +
+            "\nContacto:\n" + "\nLeidy Mariana Ruiz Blanco\n" +
+            "Tel.: (1) 642 0092\n" +
+            "Móvil: 322 332 7942\n" +
+            "Calle 100 No. 8 A 37 Word Trade Center\n" +
+            "asismtto@eg-colombia.com\n" +
+            "www.eg-colombia.com\n";
+    public static String phone37 = " 322 332 7942";
+    public static String email37 = "asismtto@eg-colombia.com";
+    public static int imageFile37 = R.drawable.tecnilimpio;
+    public static String coords37 = "4.681005, -74.040821";
+
+
+    public static String title37 = "Stage";
+    public static String description37 = "Actividad:\n" + "\nEmpresa dedicada a la prestación de servicios de alquiler de equipos de luces y sonido, shows musicales, producciones eventos sociales y empresariales, activaciones de marca, shows, sketch circense y de entretenimiento.\n" + "\nBeneficio:\n" + "\n15 % descuentos sobre lista de precios en su portafolio\n" + "\nCondiciones y Restricciones:\n" + "\nPresentar el carné del Club Recordar y el documento de identificación.\n" +
+            "\nContacto:\n" + "\nMóvil: 313 472 5345\n" +
+            "Carrera 98A No. 15 A 70 T-10 Apto. 102\n" +
+            "stagebtleventos@gmail.com\n";
+    public static String phone37 = " 3313 472 534";
+    public static String email37 = "stagebtleventos@gmail.com";
+    public static int imageFile37 = R.drawable.tecnilimpio;
+    public static String coords37 = "4.666127, -74.152193";
 
     public static void addObjectsBogota(){
         try {
@@ -467,6 +510,9 @@ public class DetailBogota {
             mainContentBogota.put("item33", getThirtiThirdItemData());
             mainContentBogota.put("item34", getThirtiFourthItemData());
             mainContentBogota.put("item35", getThirtiFifthItemData());
+            mainContentBogota.put("item36", getThirtiSixthItemData());
+            mainContentBogota.put("item37", getThirtiSeventhItemData());
+            mainContentBogota.put("item38", getThirtiEighthItemData());
 
 
 
@@ -910,6 +956,45 @@ public class DetailBogota {
         contentBogota35.put("coords", coords35);
 
         return contentBogota35;
+    }
+
+    public static JSONObject getThirtiSixthItemData() throws JSONException {
+
+        contentBogota36.put("title", title36);
+        contentBogota36.put("description", description36);
+        contentBogota36.put("phone", phone36);
+        contentBogota36.put("email", email36);
+        contentBogota36.put("image", imageFile36);
+        contentBogota36.put("coords", coords36);
+
+        return contentBogota36;
+
+    }
+
+    public static JSONObject getThirtiSeventhItemData() throws JSONException {
+
+        contentBogota37.put("title", title37);
+        contentBogota37.put("description", description37);
+        contentBogota37.put("phone", phone37);
+        contentBogota37.put("email", email37);
+        contentBogota37.put("image", imageFile37);
+        contentBogota37.put("coords", coords37);
+
+        return contentBogota37;
+
+    }
+
+    public static JSONObject getThirtiEighthItemData() throws JSONException {
+
+        contentBogota38.put("title", title38);
+        contentBogota38.put("description", description38);
+        contentBogota38.put("phone", phone38);
+        contentBogota38.put("email", email38);
+        contentBogota38.put("image", imageFile38);
+        contentBogota38.put("coords", coords38);
+
+        return contentBogota38;
+
     }
 }
 

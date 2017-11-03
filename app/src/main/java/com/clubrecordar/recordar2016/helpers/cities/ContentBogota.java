@@ -154,6 +154,17 @@ public class ContentBogota {
     public static int imageFile35 = R.drawable.colturex;
     public static String description35 = "Servicio de transporte terrestre automotor especia";
 
+    public static String titulo36 = "EG";
+    public static int imageFile36 = R.drawable.ag;
+    public static String description36 = "Administracion de propiedad horizontal";
+
+    public static String titulo37 = "Tecnilimpio";
+    public static int imageFile37 = R.drawable.tecnilimpio;
+    public static String description37 = "Suministro de personal para servicio integral de aseo";
+
+    public static String titulo38 = "Stage";
+    public static int imageFile38 = R.drawable.stage;
+    public static String description38 = "prestación de servicios de alquiler de equipos de luces y sonido,";
 
     public static void addContentBogota(){
 
@@ -192,6 +203,9 @@ public class ContentBogota {
         contentBogota.add(new BogotaModel(imageFile33, titulo33, description33));
         contentBogota.add(new BogotaModel(imageFile34, titulo34, description34));
         contentBogota.add(new BogotaModel(imageFile35, titulo35, description35));
+        contentBogota.add(new BogotaModel(imageFile36, titulo36, description36));
+        contentBogota.add(new BogotaModel(imageFile37, titulo37, description37));
+        contentBogota.add(new BogotaModel(imageFile38, titulo38, description38));
     }
 
     public static List<BogotaModel> getContentBogota(){

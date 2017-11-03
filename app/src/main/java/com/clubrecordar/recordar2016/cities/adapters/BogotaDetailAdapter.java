@@ -30,9 +30,11 @@ import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetTenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirdActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirteenthActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirtiethActivity;
+import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirtyFifthActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirtyFirstActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirtyFourthActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirtySecondActivity;
+import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirtySixthActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetThirtyThirdActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetTwelvethActivity;
 import com.clubrecordar.recordar2016.detailsItem.bogota.BogotaDetTwentiethActivity;
@@ -87,7 +89,7 @@ public class BogotaDetailAdapter extends RecyclerView.Adapter<BogotaDetailAdapte
 
         @Override
         public void onClick(View v) {
-            //Toast.makeText(v.getContext(),"CLIKC",Toast.LENGTH_SHORT).show();
+            //Toast.makeText(v.getContext()"CLIKC",Toast.LENGTH_SHORT).show();
 
             switch (getLayoutPosition()){
                 case 0:
@@ -862,7 +864,51 @@ public class BogotaDetailAdapter extends RecyclerView.Adapter<BogotaDetailAdapte
                         e.printStackTrace();
                     }
                     //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
-                    intent = new Intent(context, BogotaDetThirtyFourthActivity.class);
+                    intent = new Intent(context, BogotaDetThirtyFifthActivity.class);
+                    intent.putExtra("title", title);
+                    intent.putExtra("description", description);
+                    intent.putExtra("phone", phone);
+                    intent.putExtra("email", email);
+                    intent.putExtra("coords", coords);
+                    intent.putExtra("image", image);
+                    context.startActivity(intent);
+                    break;
+                case 35:
+                    try {
+                        title = (String) DetailBogota.getDetailBogota().getJSONObject("item36").get("title");
+                        description = (String) DetailBogota.getDetailBogota().getJSONObject("item36").get("description");
+                        phone = (String) DetailBogota.getDetailBogota().getJSONObject("item36").get("phone");
+                        email = (String) DetailBogota.getDetailBogota().getJSONObject("item36").get("email");
+                        coords = (String) DetailBogota.getDetailBogota().getJSONObject("item36").get("coords");
+                        image = (int) DetailBogota.getDetailBogota().getJSONObject("item36").get("image");
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
+                    intent = new Intent(context, BogotaDetThirtySixthActivity.class);
+                    intent.putExtra("title", title);
+                    intent.putExtra("description", description);
+                    intent.putExtra("phone", phone);
+                    intent.putExtra("email", email);
+                    intent.putExtra("coords", coords);
+                    intent.putExtra("image", image);
+                    context.startActivity(intent);
+                    break;
+                case 36:
+                    try {
+                        title = (String) DetailBogota.getDetailBogota().getJSONObject("item37").get("title");
+                        description = (String) DetailBogota.getDetailBogota().getJSONObject("item37").get("description");
+                        phone = (String) DetailBogota.getDetailBogota().getJSONObject("item37").get("phone");
+                        email = (String) DetailBogota.getDetailBogota().getJSONObject("item37").get("email");
+                        coords = (String) DetailBogota.getDetailBogota().getJSONObject("item37").get("coords");
+                        image = (int) DetailBogota.getDetailBogota().getJSONObject("item37").get("image");
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    //Toast.makeText(v.getContext(), "CLIKC Alianza items", Toast.LENGTH_SHORT).show();
+                    intent = new Intent(context, BogotaDetThirtySixthActivity.class);
                     intent.putExtra("title", title);
                     intent.putExtra("description", description);
                     intent.putExtra("phone", phone);
